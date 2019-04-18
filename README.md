@@ -1,2 +1,0 @@
-# KenKen
-KenKen puzzle solver .
