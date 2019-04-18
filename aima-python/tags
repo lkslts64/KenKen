@@ -1,0 +1,1371 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	example.py	/^class A:$/;"	c
+AC3	csp.py	/^def AC3(csp, queue=None, removals=None):$/;"	f
+ALPHABET	search.py	/^ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'$/;"	v
+Action	planning.py	/^class Action:$/;"	c
+AdaBoost	learning.py	/^def AdaBoost(L, K):$/;"	f
+Agent	agents.py	/^class Agent(Thing):$/;"	c
+Angelic_HLA	planning.py	/^class Angelic_HLA(HLA):$/;"	c
+Angelic_Node	planning.py	/^class Angelic_Node(Node):$/;"	c
+Arad	search.py	/^    Arad=(91, 492), Bucharest=(400, 327), Craiova=(253, 288),$/;"	v
+Arad	search.py	/^    Arad=dict(Zerind=75, Sibiu=140, Timisoara=118),$/;"	v
+Arrow	agents.py	/^class Arrow(Thing):$/;"	c
+B	example.py	/^class B(A):$/;"	c
+B	games.py	/^                 B=dict(b1='B1', b2='B2', b3='B3'),$/;"	v	class:Fig52Game
+BackPropagationLearner	learning.py	/^def BackPropagationLearner(dataset, net, learning_rate, epochs, activation=sigmoid):$/;"	f
+Backgammon	games.py	/^class Backgammon(StochasticGame):$/;"	c
+BayesNet	probability.py	/^class BayesNet:$/;"	c
+BayesNode	probability.py	/^class BayesNode:$/;"	c
+BoggleFinder	search.py	/^class BoggleFinder:$/;"	c
+Bool	utils.py	/^class Bool(int):$/;"	c
+Breeze	agents.py	/^class Breeze(Thing):$/;"	c
+Bucharest	search.py	/^    Bucharest=dict(Urziceni=85, Pitesti=101, Giurgiu=90, Fagaras=211),$/;"	v
+Bump	agents.py	/^class Bump(Thing):$/;"	c
+C	games.py	/^                 C=dict(c1='C1', c2='C2', c3='C3'),$/;"	v	class:Fig52Game
+CSP	csp.py	/^class CSP(search.Problem):$/;"	c
+CYK_parse	nlp.py	/^def CYK_parse(words, grammar):$/;"	f
+Cage	KenKen.py	/^class Cage:$/;"	c
+Canvas	notebook.py	/^class Canvas:$/;"	c
+Canvas_TicTacToe	notebook.py	/^class Canvas_TicTacToe(Canvas):$/;"	c
+Canvas_alphabeta	notebook.py	/^class Canvas_alphabeta(Canvas):$/;"	c
+Canvas_fol_bc_ask	notebook.py	/^class Canvas_fol_bc_ask(Canvas):$/;"	c
+Canvas_minimax	notebook.py	/^class Canvas_minimax(Canvas):$/;"	c
+Cell	csp.py	/^    Cell = _CELL$/;"	v	class:Sudoku
+Chart	nlp.py	/^class Chart:$/;"	c
+ConnectFour	games.py	/^class ConnectFour(TicTacToe):$/;"	c
+ContinuousWorld	agents.py	/^class ContinuousWorld(Environment):$/;"	c
+ContinuousWorldView	ipyviews.py	/^class ContinuousWorldView:$/;"	c
+ContinuousXor	learning.py	/^def ContinuousXor(n):$/;"	f
+ConvergenceDetector	nlp.py	/^class ConvergenceDetector(object):$/;"	c
+CountingProbDist	learning.py	/^class CountingProbDist:$/;"	c
+Craiova	search.py	/^    Craiova=dict(Drobeta=120, Rimnicu=146, Pitesti=138),$/;"	v
+D	agents.py	/^    D = "down"$/;"	v	class:Direction
+D	games.py	/^                 D=dict(d1='D1', d2='D2', d3='D3'))$/;"	v	class:Fig52Game
+DTAgentProgram	probability.py	/^def DTAgentProgram(belief_state):$/;"	f
+DataSet	learning.py	/^class DataSet:$/;"	c
+DecisionFork	learning.py	/^class DecisionFork:$/;"	c
+DecisionLeaf	learning.py	/^class DecisionLeaf:$/;"	c
+DecisionListLearner	learning.py	/^def DecisionListLearner(dataset):$/;"	f
+DecisionNetwork	probability.py	/^class DecisionNetwork(BayesNet):$/;"	c
+DecisionTreeLearner	learning.py	/^def DecisionTreeLearner(dataset):$/;"	f
+Direction	agents.py	/^class Direction:$/;"	c
+Dirt	agents.py	/^class Dirt(Thing):$/;"	c
+Document	text.py	/^class Document:$/;"	c
+Drobeta	search.py	/^    Drobeta=(165, 299), Eforie=(562, 293), Fagaras=(305, 449),$/;"	v
+Drobeta	search.py	/^    Drobeta=dict(Mehadia=75),$/;"	v
+E0	nlp.py	/^E0 = Grammar('E0',$/;"	v
+E_	nlp.py	/^E_ = Grammar('E_',  # Trivial Grammar and lexicon for testing$/;"	v
+E_Chomsky	nlp.py	/^E_Chomsky = Grammar('E_Prob_Chomsky', # A Grammar in Chomsky Normal Form$/;"	v
+E_NP_	nlp.py	/^E_NP_ = Grammar('E_NP_',  # Another Trivial Grammar for testing$/;"	v
+E_Prob	nlp.py	/^E_Prob = ProbGrammar('E_Prob', # The Probabilistic Grammar from the notebook$/;"	v
+E_Prob_Chomsky	nlp.py	/^E_Prob_Chomsky = ProbGrammar('E_Prob_Chomsky', # A Probabilistic Grammar in CNF$/;"	v
+E_Prob_Chomsky_	nlp.py	/^E_Prob_Chomsky_ = ProbGrammar('E_Prob_Chomsky_',$/;"	v
+Eforie	search.py	/^    Eforie=dict(Hirsova=86),$/;"	v
+EightPuzzle	search.py	/^class EightPuzzle(Problem):$/;"	c
+EnsembleLearner	learning.py	/^def EnsembleLearner(learners):$/;"	f
+Environment	agents.py	/^class Environment:$/;"	c
+Explorer	agents.py	/^class Explorer(Agent):$/;"	c
+Expr	utils.py	/^class Expr(object):$/;"	c
+Expression	utils.py	/^Expression = (Expr, Number)$/;"	v
+F	utils.py	/^F = Bool(False)$/;"	v
+FOIL_container	knowledge.py	/^class FOIL_container(FolKB):$/;"	c
+Factor	probability.py	/^class Factor:$/;"	c
+Fagaras	search.py	/^    Fagaras=dict(Sibiu=99),$/;"	v
+Fig52Extended	games.py	/^class Fig52Extended(Game):$/;"	c
+Fig52Game	games.py	/^class Fig52Game(Game):$/;"	c
+FolKB	logic.py	/^class FolKB(KB):$/;"	c
+Game	games.py	/^class Game:$/;"	c
+GameState	games.py	/^GameState = namedtuple('GameState', 'to_move, utility, board, moves')$/;"	v
+Giurgiu	search.py	/^    Giurgiu=(375, 270), Hirsova=(534, 350), Iasi=(473, 506),$/;"	v
+Glitter	agents.py	/^class Glitter(Thing):$/;"	c
+Gold	agents.py	/^class Gold(Thing):$/;"	c
+Grammar	nlp.py	/^class Grammar:$/;"	c
+Graph	planning.py	/^class Graph:$/;"	c
+Graph	search.py	/^class Graph:$/;"	c
+GraphPlan	planning.py	/^class GraphPlan:$/;"	c
+GraphProblem	search.py	/^class GraphProblem(Problem):$/;"	c
+GraphProblemStochastic	search.py	/^class GraphProblemStochastic(GraphProblem):$/;"	c
+GraphicEnvironment	agents.py	/^class GraphicEnvironment(XYEnvironment):$/;"	c
+GridMDP	mdp.py	/^class GridMDP(MDP):$/;"	c
+GridWorldView	ipyviews.py	/^class GridWorldView:$/;"	c
+HITS	nlp.py	/^def HITS(query):$/;"	f
+HLA	planning.py	/^class HLA(Action):$/;"	c
+HiddenMarkovModel	probability.py	/^class HiddenMarkovModel:$/;"	c
+Hirsova	search.py	/^    Hirsova=dict(Urziceni=98),$/;"	v
+HybridWumpusAgent	logic.py	/^class HybridWumpusAgent(agents.Agent):$/;"	c
+I	learning.py	/^        def I(examples):$/;"	f	function:DecisionTreeLearner.information_gain
+IRSystem	text.py	/^class IRSystem:$/;"	c
+Iasi	search.py	/^    Iasi=dict(Vaslui=92, Neamt=87),$/;"	v
+InformationGatheringAgent	probability.py	/^class InformationGatheringAgent(Agent):$/;"	c
+InstrumentedProblem	search.py	/^class InstrumentedProblem(Problem):$/;"	c
+JointProbDist	probability.py	/^class JointProbDist(ProbDist):$/;"	c
+KB	logic.py	/^class KB:$/;"	c
+KB_AgentProgram	logic.py	/^def KB_AgentProgram(KB):$/;"	f
+KenKen	KenKen.py	/^class KenKen(CSP):$/;"	c
+KenKen_constraints_2	KenKen.py	/^    def KenKen_constraints_2(self,A,a,B,b) :$/;"	m	class:KenKen
+L	agents.py	/^    L = "left"$/;"	v	class:Direction
+LRTAStarAgent	search.py	/^class LRTAStarAgent:$/;"	c
+LRTA_cost	search.py	/^    def LRTA_cost(self, s, a, s1, H):$/;"	m	class:LRTAStarAgent
+Level	planning.py	/^class Level:$/;"	c
+Lexicon	nlp.py	/^def Lexicon(**rules):$/;"	f
+LinearLearner	learning.py	/^def LinearLearner(dataset, learning_rate=0.01, epochs=100):$/;"	f
+Linearize	planning.py	/^class Linearize:$/;"	c
+Lugoj	search.py	/^    Lugoj=(165, 379), Mehadia=(168, 339), Neamt=(406, 537),$/;"	v
+Lugoj	search.py	/^    Lugoj=dict(Timisoara=111, Mehadia=70),$/;"	v
+MCLmap	probability.py	/^class MCLmap:$/;"	c
+MDP	mdp.py	/^class MDP:$/;"	c
+MDP2	mdp.py	/^class MDP2(MDP):$/;"	c
+Majority	learning.py	/^def Majority(k, n):$/;"	f
+MapColoringCSP	csp.py	/^def MapColoringCSP(colors, neighbors):$/;"	f
+Matrix	mdp.py	/^class Matrix:$/;"	c
+ModelBasedReflexAgentProgram	agents.py	/^def ModelBasedReflexAgentProgram(rules, update_state, model):$/;"	f
+ModelBasedVacuumAgent	agents.py	/^def ModelBasedVacuumAgent():$/;"	f
+ModelMDP	rl.py	/^    class ModelMDP(MDP):$/;"	c	class:PassiveADPAgent
+NNUnit	learning.py	/^class NNUnit:$/;"	c
+NOT	logic.py	/^        def NOT(b):$/;"	f	function:move_not_inwards
+NQueensCSP	csp.py	/^class NQueensCSP(CSP):$/;"	c
+NQueensProblem	search.py	/^class NQueensProblem(Problem):$/;"	c
+NSW	search.py	/^    NSW=dict(Q=1, V=1)))$/;"	v
+NT	search.py	/^    NT=dict(WA=1, Q=1),$/;"	v
+NaiveBayesContinuous	learning.py	/^def NaiveBayesContinuous(dataset):$/;"	f
+NaiveBayesDiscrete	learning.py	/^def NaiveBayesDiscrete(dataset):$/;"	f
+NaiveBayesLearner	learning.py	/^def NaiveBayesLearner(dataset, continuous=True, simple=False):$/;"	f
+NaiveBayesSimple	learning.py	/^def NaiveBayesSimple(distribution):$/;"	f
+NearestNeighborLearner	learning.py	/^def NearestNeighborLearner(dataset, k=1):$/;"	f
+NeuralNetLearner	learning.py	/^def NeuralNetLearner(dataset, hidden_layer_sizes=None,$/;"	f
+NgramCharModel	text.py	/^class NgramCharModel(NgramWordModel):$/;"	c
+NgramWordModel	text.py	/^class NgramWordModel(CountingProbDist):$/;"	c
+Node	search.py	/^class Node:$/;"	c
+Number	utils.py	/^Number = (int, float, complex)$/;"	v
+Obstacle	agents.py	/^class Obstacle(Thing):$/;"	c
+OnlineDFSAgent	search.py	/^class OnlineDFSAgent:$/;"	c
+OnlineSearchProblem	search.py	/^class OnlineSearchProblem(Problem):$/;"	c
+Oradea	search.py	/^    Oradea=(131, 571), Pitesti=(320, 368), Rimnicu=(233, 410),$/;"	v
+Oradea	search.py	/^    Oradea=dict(Zerind=71, Sibiu=151),$/;"	v
+POMDP	mdp.py	/^class POMDP(MDP):$/;"	c
+Page	nlp.py	/^class Page(object):$/;"	c
+Parity	learning.py	/^def Parity(k, n, name="parity"):$/;"	f
+PartialExpr	utils.py	/^class PartialExpr:$/;"	c
+PartialOrderPlanner	planning.py	/^class PartialOrderPlanner:$/;"	c
+PassiveADPAgent	rl.py	/^class PassiveADPAgent:$/;"	c
+PassiveDUEAgent	rl.py	/^class PassiveDUEAgent:$/;"	c
+PassiveTDAgent	rl.py	/^class PassiveTDAgent:$/;"	c
+PeakFindingProblem	search.py	/^class PeakFindingProblem(Problem):$/;"	c
+PerceptronLearner	learning.py	/^def PerceptronLearner(dataset, learning_rate=0.01, epochs=100):$/;"	f
+PermutationDecoder	text.py	/^class PermutationDecoder:$/;"	c
+PermutationDecoderProblem	text.py	/^class PermutationDecoderProblem(search.Problem):$/;"	c
+Pit	agents.py	/^class Pit(Thing):$/;"	c
+Pitesti	search.py	/^    Pitesti=dict(Rimnicu=97),$/;"	v
+PlanRoute	search.py	/^class PlanRoute(Problem):$/;"	c
+PlanningProblem	planning.py	/^class PlanningProblem:$/;"	c
+PluralityLearner	learning.py	/^def PluralityLearner(dataset):$/;"	f
+PolygonObstacle	agents.py	/^class PolygonObstacle(Obstacle):$/;"	c
+PriorityQueue	utils.py	/^class PriorityQueue:$/;"	c
+ProbDist	probability.py	/^class ProbDist:$/;"	c
+ProbGrammar	nlp.py	/^class ProbGrammar:$/;"	c
+ProbLexicon	nlp.py	/^def ProbLexicon(**rules):$/;"	f
+ProbRules	nlp.py	/^def ProbRules(**rules):$/;"	f
+Problem	planning.py	/^class Problem(PlanningProblem):$/;"	c
+Problem	search.py	/^class Problem(object):$/;"	c
+PropDefiniteKB	logic.py	/^class PropDefiniteKB(PropKB):$/;"	c
+PropKB	logic.py	/^class PropKB(KB):$/;"	c
+QLearningAgent	rl.py	/^class QLearningAgent:$/;"	c
+R	agents.py	/^    R = "right"$/;"	v	class:Direction
+R	mdp.py	/^    def R(self, state):$/;"	m	class:MDP
+R3	csp.py	/^    R3 = _R3$/;"	v	class:Sudoku
+RBFS	search.py	/^    def RBFS(problem, node, flimit):$/;"	f	function:recursive_best_first_search
+RandomAgentProgram	agents.py	/^def RandomAgentProgram(actions):$/;"	f
+RandomForest	learning.py	/^def RandomForest(dataset, n=5):$/;"	f
+RandomGraph	search.py	/^def RandomGraph(nodes=list(range(10)), min_links=2, width=400, height=300,$/;"	f
+RandomVacuumAgent	agents.py	/^def RandomVacuumAgent():$/;"	f
+ReflexVacuumAgent	agents.py	/^def ReflexVacuumAgent():$/;"	f
+RestaurantDataSet	learning.py	/^def RestaurantDataSet(examples=None):$/;"	f
+Rimnicu	search.py	/^    Rimnicu=dict(Sibiu=80),$/;"	v
+Rules	nlp.py	/^def Rules(**rules):$/;"	f
+SA	search.py	/^    SA=dict(WA=1, NT=1, Q=1, NSW=1, V=1),$/;"	v
+SAT_plan	logic.py	/^def SAT_plan(init, transition, goal, t_max, SAT_solver=dpll_satisfiable):$/;"	f
+Scream	agents.py	/^class Scream(Thing):$/;"	c
+ShiftDecoder	text.py	/^class ShiftDecoder:$/;"	c
+Sibiu	search.py	/^    Sibiu=(207, 457), Timisoara=(94, 410), Urziceni=(456, 350),$/;"	v
+SimpleProblemSolvingAgentProgram	search.py	/^class SimpleProblemSolvingAgentProgram:$/;"	c
+SimpleReflexAgentProgram	agents.py	/^def SimpleReflexAgentProgram(rules, interpret_input):$/;"	f
+State_1	search.py	/^    State_1=8,$/;"	v
+State_1	search.py	/^    State_1=dict(Right='State_2'),$/;"	v
+State_1	search.py	/^    State_1=dict(Suck=['State_7', 'State_5'], Right=['State_2']),$/;"	v
+State_2	search.py	/^    State_2=9,$/;"	v
+State_2	search.py	/^    State_2=dict(Right='State_3', Left='State_1'),$/;"	v
+State_2	search.py	/^    State_2=dict(Suck=['State_8', 'State_4'], Left=['State_2']),$/;"	v
+State_3	search.py	/^    State_3=2,$/;"	v
+State_3	search.py	/^    State_3=dict(Right='State_4', Left='State_2'),$/;"	v
+State_3	search.py	/^    State_3=dict(Suck=['State_7'], Right=['State_4']),$/;"	v
+State_4	search.py	/^    State_4=2,$/;"	v
+State_4	search.py	/^    State_4=dict(Right='State_5', Left='State_3'),$/;"	v
+State_4	search.py	/^    State_4=dict(Suck=['State_4', 'State_2'], Left=['State_3']),$/;"	v
+State_5	search.py	/^    State_5=4,$/;"	v
+State_5	search.py	/^    State_5=dict(Right='State_6', Left='State_4'),$/;"	v
+State_5	search.py	/^    State_5=dict(Suck=['State_5', 'State_1'], Right=['State_6']),$/;"	v
+State_6	search.py	/^    State_6=3)$/;"	v
+State_6	search.py	/^    State_6=dict(Left='State_5')$/;"	v
+State_6	search.py	/^    State_6=dict(Suck=['State_8'], Left=['State_5']),$/;"	v
+State_7	search.py	/^    State_7=dict(Suck=['State_7', 'State_3'], Right=['State_8']),$/;"	v
+State_8	search.py	/^    State_8=dict(Suck=['State_8', 'State_6'], Left=['State_7'])$/;"	v
+Stench	agents.py	/^class Stench(Thing):$/;"	c
+StochasticGame	games.py	/^class StochasticGame(Game):$/;"	c
+StochasticGameState	games.py	/^StochasticGameState = namedtuple('StochasticGameState', 'to_move, utility, board, moves, chance')$/;"	v
+Sudoku	csp.py	/^class Sudoku(CSP):$/;"	c
+Symbol	utils.py	/^def Symbol(name):$/;"	f
+SyntheticRestaurant	learning.py	/^def SyntheticRestaurant(n=20):$/;"	f
+T	learning.py	/^def T(attrname, branches):$/;"	f
+T	mdp.py	/^    def T(self, state, action):$/;"	m	class:GridMDP
+T	mdp.py	/^    def T(self, state, action):$/;"	m	class:MDP
+T	mdp.py	/^    def T(self, state, action):$/;"	m	class:MDP2
+T	rl.py	/^        def T(self, s, a):$/;"	m	class:PassiveADPAgent.ModelMDP
+T	search.py	/^    T=dict(),$/;"	v
+T	utils.py	/^T = Bool(True)$/;"	v
+TableDrivenAgentProgram	agents.py	/^def TableDrivenAgentProgram(table):$/;"	f
+TableDrivenVacuumAgent	agents.py	/^def TableDrivenVacuumAgent():$/;"	f
+Thing	agents.py	/^class Thing:$/;"	c
+TicTacToe	games.py	/^class TicTacToe(Game):$/;"	c
+TraceAgent	agents.py	/^def TraceAgent(agent):$/;"	f
+TrivialVacuumEnvironment	agents.py	/^class TrivialVacuumEnvironment(Environment):$/;"	c
+U	agents.py	/^    U = "up"$/;"	v	class:Direction
+UndirectedGraph	search.py	/^def UndirectedGraph(graph_dict=None):$/;"	f
+UnigramCharModel	text.py	/^class UnigramCharModel(NgramCharModel):$/;"	c
+UnigramWordModel	text.py	/^class UnigramWordModel(CountingProbDist):$/;"	c
+UniversalDict	csp.py	/^class UniversalDict:$/;"	c
+UnixConsultant	text.py	/^class UnixConsultant(IRSystem):$/;"	c
+Urziceni	search.py	/^    Urziceni=dict(Vaslui=142)))$/;"	v
+VacuumEnvironment	agents.py	/^class VacuumEnvironment(XYEnvironment):$/;"	c
+Vaslui	search.py	/^    Vaslui=(509, 444), Zerind=(108, 531))$/;"	v
+WalkSAT	logic.py	/^def WalkSAT(clauses, p=0.5, max_flips=10000):$/;"	f
+Wall	agents.py	/^class Wall(Obstacle):$/;"	c
+WeightedLearner	learning.py	/^def WeightedLearner(unweighted_learner):$/;"	f
+WeightedMajority	learning.py	/^def WeightedMajority(predictors, weights):$/;"	f
+Wordlist	search.py	/^class Wordlist:$/;"	c
+Wumpus	agents.py	/^class Wumpus(Agent):$/;"	c
+WumpusEnvironment	agents.py	/^class WumpusEnvironment(XYEnvironment):$/;"	c
+WumpusKB	logic.py	/^class WumpusKB(PropKB):$/;"	c
+WumpusPosition	logic.py	/^class WumpusPosition():$/;"	c
+XYEnvironment	agents.py	/^class XYEnvironment(Environment):$/;"	c
+Xor	learning.py	/^def Xor(n):$/;"	f
+Zebra	csp.py	/^def Zebra():$/;"	f
+_BGRID	csp.py	/^_BGRID = [[[[_CELL() for x in _R3] for y in _R3] for bx in _R3] for by in _R3]$/;"	v
+_BOXES	csp.py	/^_BOXES = flatten([list(map(flatten, brow)) for brow in _BGRID])$/;"	v
+_CELL	csp.py	/^_CELL = itertools.count().__next__$/;"	v
+_COLS	csp.py	/^_COLS = list(zip(*_ROWS))$/;"	v
+_JS_CONTINUOUS_WORLD	ipyviews.py	/^    _JS_CONTINUOUS_WORLD = js_file.read()$/;"	v
+_JS_GRID_WORLD	ipyviews.py	/^    _JS_GRID_WORLD = js_file.read()$/;"	v	class:ContinuousWorldView
+_NEIGHBORS	csp.py	/^_NEIGHBORS = {v: set() for v in flatten(_ROWS)}$/;"	v
+_R3	csp.py	/^_R3 = list(range(3))$/;"	v
+_ROWS	csp.py	/^_ROWS = flatten([list(map(flatten, zip(*brow))) for brow in _BGRID])$/;"	v
+__add__	agents.py	/^    def __add__(self, heading):$/;"	m	class:Direction	file:
+__add__	utils.py	/^    def __add__(self, rhs):$/;"	m	class:Expr	file:
+__and__	utils.py	/^    def __and__(self, rhs):$/;"	m	class:Expr	file:
+__call__	learning.py	/^    def __call__(self, example):$/;"	m	class:DecisionFork	file:
+__call__	learning.py	/^    def __call__(self, example):$/;"	m	class:DecisionLeaf	file:
+__call__	nlp.py	/^    def __call__(self):$/;"	m	class:ConvergenceDetector	file:
+__call__	planning.py	/^    def __call__(self):$/;"	m	class:Graph	file:
+__call__	planning.py	/^    def __call__(self, actions, objects):$/;"	m	class:Level	file:
+__call__	planning.py	/^    def __call__(self, kb, args):$/;"	m	class:Action	file:
+__call__	rl.py	/^    def __call__(self, percept):$/;"	m	class:PassiveADPAgent	file:
+__call__	rl.py	/^    def __call__(self, percept):$/;"	m	class:PassiveDUEAgent	file:
+__call__	rl.py	/^    def __call__(self, percept):$/;"	m	class:PassiveTDAgent	file:
+__call__	rl.py	/^    def __call__(self, percept):$/;"	m	class:QLearningAgent	file:
+__call__	search.py	/^    def __call__(self, percept):$/;"	m	class:OnlineDFSAgent	file:
+__call__	search.py	/^    def __call__(self, percept):$/;"	m	class:SimpleProblemSolvingAgentProgram	file:
+__call__	search.py	/^    def __call__(self, s1):     # as of now s1 is a state rather than a percept$/;"	m	class:LRTAStarAgent	file:
+__call__	utils.py	/^    def __call__(self, *args):$/;"	m	class:Expr	file:
+__contains__	search.py	/^    def __contains__(self, word):$/;"	m	class:Wordlist	file:
+__contains__	utils.py	/^    def __contains__(self, item):$/;"	m	class:PriorityQueue	file:
+__delitem__	utils.py	/^    def __delitem__(self, key):$/;"	m	class:PriorityQueue	file:
+__enter__	utils.py	/^    def __enter__(self):$/;"	m	class:injection	file:
+__eq__	agents.py	/^    def __eq__(self, rhs):$/;"	m	class:Gold	file:
+__eq__	logic.py	/^    def __eq__(self, other):$/;"	m	class:WumpusPosition	file:
+__eq__	search.py	/^    def __eq__(self, other):$/;"	m	class:Node	file:
+__eq__	utils.py	/^    def __eq__(self, other):$/;"	m	class:Expr	file:
+__exit__	utils.py	/^    def __exit__(self, type, value, traceback):$/;"	m	class:injection	file:
+__floordiv__	utils.py	/^    def __floordiv__(self, rhs):$/;"	m	class:Expr	file:
+__getattr__	search.py	/^    def __getattr__(self, attr):$/;"	m	class:InstrumentedProblem	file:
+__getitem__	csp.py	/^    def __getitem__(self, key): return self.value$/;"	m	class:UniversalDict	file:
+__getitem__	learning.py	/^    def __getitem__(self, item):$/;"	m	class:CountingProbDist	file:
+__getitem__	probability.py	/^    def __getitem__(self, val):$/;"	m	class:ProbDist	file:
+__getitem__	probability.py	/^    def __getitem__(self, values):$/;"	m	class:JointProbDist	file:
+__getitem__	utils.py	/^    def __getitem__(self, key):$/;"	m	class:PriorityQueue	file:
+__hash__	search.py	/^    def __hash__(self):$/;"	m	class:Node	file:
+__hash__	utils.py	/^    def __hash__(self):$/;"	m	class:Expr	file:
+__hash__	utils.py	/^    def __hash__(self):$/;"	m	class:hashabledict	file:
+__init__	KenKen.py	/^    def __init__(self, variables, op , result):$/;"	m	class:Cage
+__init__	KenKen.py	/^    def __init__(self,puzzle):$/;"	m	class:KenKen
+__init__	agents.py	/^    def __init__(self):$/;"	m	class:Environment
+__init__	agents.py	/^    def __init__(self):$/;"	m	class:TrivialVacuumEnvironment
+__init__	agents.py	/^    def __init__(self, agent_program, width=6, height=6):$/;"	m	class:WumpusEnvironment
+__init__	agents.py	/^    def __init__(self, coordinates):$/;"	m	class:PolygonObstacle
+__init__	agents.py	/^    def __init__(self, direction):$/;"	m	class:Direction
+__init__	agents.py	/^    def __init__(self, program=None):$/;"	m	class:Agent
+__init__	agents.py	/^    def __init__(self, width=10, height=10):$/;"	m	class:ContinuousWorld
+__init__	agents.py	/^    def __init__(self, width=10, height=10):$/;"	m	class:VacuumEnvironment
+__init__	agents.py	/^    def __init__(self, width=10, height=10):$/;"	m	class:XYEnvironment
+__init__	agents.py	/^    def __init__(self, width=10, height=10, boundary=True, color={}, display=False):$/;"	m	class:GraphicEnvironment
+__init__	csp.py	/^    def __init__(self, grid):$/;"	m	class:Sudoku
+__init__	csp.py	/^    def __init__(self, n):$/;"	m	class:NQueensCSP
+__init__	csp.py	/^    def __init__(self, value): self.value = value$/;"	m	class:UniversalDict
+__init__	csp.py	/^    def __init__(self, variables, domains, neighbors, constraints):$/;"	m	class:CSP
+__init__	example.py	/^    def __init__(self):$/;"	m	class:A
+__init__	example.py	/^    def __init__(self):$/;"	m	class:B
+__init__	games.py	/^    def __init__(self):$/;"	m	class:Backgammon
+__init__	games.py	/^    def __init__(self, h=3, v=3, k=3):$/;"	m	class:TicTacToe
+__init__	games.py	/^    def __init__(self, h=7, v=6, k=4):$/;"	m	class:ConnectFour
+__init__	ipyviews.py	/^    def __init__(self, world, block_size=30, default_fill="white"):$/;"	m	class:GridWorldView
+__init__	ipyviews.py	/^    def __init__(self, world, fill="#AAA"):$/;"	m	class:ContinuousWorldView
+__init__	knowledge.py	/^    def __init__(self, clauses=None):$/;"	m	class:FOIL_container
+__init__	learning.py	/^    def __init__(self, activation=sigmoid, weights=None, inputs=None):$/;"	m	class:NNUnit
+__init__	learning.py	/^    def __init__(self, attr, attrname=None, default_child=None, branches=None):$/;"	m	class:DecisionFork
+__init__	learning.py	/^    def __init__(self, examples=None, attrs=None, attrnames=None, target=-1,$/;"	m	class:DataSet
+__init__	learning.py	/^    def __init__(self, observations=None, default=0):$/;"	m	class:CountingProbDist
+__init__	learning.py	/^    def __init__(self, result):$/;"	m	class:DecisionLeaf
+__init__	logic.py	/^    def __init__(self):$/;"	m	class:HybridWumpusAgent
+__init__	logic.py	/^    def __init__(self, initial_clauses=None):$/;"	m	class:FolKB
+__init__	logic.py	/^    def __init__(self, sentence=None):$/;"	m	class:KB
+__init__	logic.py	/^    def __init__(self, sentence=None):$/;"	m	class:PropKB
+__init__	logic.py	/^    def __init__(self, x, y, orientation):$/;"	m	class:WumpusPosition
+__init__	logic.py	/^    def __init__(self,dimrow):$/;"	m	class:WumpusKB
+__init__	mdp.py	/^    def __init__(self, actions, transitions=None, evidences=None, rewards=None, states=None, gamma=0.95):$/;"	m	class:POMDP
+__init__	mdp.py	/^    def __init__(self, grid, terminals, init=(0, 0), gamma=.9):$/;"	m	class:GridMDP
+__init__	mdp.py	/^    def __init__(self, init, actlist, terminals, transitions, reward=None, gamma=0.9):$/;"	m	class:MDP2
+__init__	mdp.py	/^    def __init__(self, init, actlist, terminals, transitions=None, reward=None, states=None, gamma=0.9):$/;"	m	class:MDP
+__init__	nlp.py	/^    def __init__(self):$/;"	m	class:ConvergenceDetector
+__init__	nlp.py	/^    def __init__(self, address, inlinks=None, outlinks=None, hub=0, authority=0):$/;"	m	class:Page
+__init__	nlp.py	/^    def __init__(self, grammar, trace=False):$/;"	m	class:Chart
+__init__	nlp.py	/^    def __init__(self, name, rules, lexicon):$/;"	m	class:Grammar
+__init__	nlp.py	/^    def __init__(self, name, rules, lexicon):$/;"	m	class:ProbGrammar
+__init__	notebook.py	/^    def __init__(self, varname, kb, query, width=800, height=600, cid=None):$/;"	m	class:Canvas_fol_bc_ask
+__init__	notebook.py	/^    def __init__(self, varname, player_1='human', player_2='random',$/;"	m	class:Canvas_TicTacToe
+__init__	notebook.py	/^    def __init__(self, varname, util_list, width=800, height=600, cid=None):$/;"	m	class:Canvas_alphabeta
+__init__	notebook.py	/^    def __init__(self, varname, util_list, width=800, height=600, cid=None):$/;"	m	class:Canvas_minimax
+__init__	notebook.py	/^    def __init__(self, varname, width=800, height=600, cid=None):$/;"	m	class:Canvas
+__init__	planning.py	/^    def __init__(self, action, precond , effect, duration =0, consume = None, use = None):$/;"	m	class:Angelic_HLA
+__init__	planning.py	/^    def __init__(self, action, precond, effect):$/;"	m	class:Action
+__init__	planning.py	/^    def __init__(self, action, precond=None, effect=None, duration=0,$/;"	m	class:HLA
+__init__	planning.py	/^    def __init__(self, init, goals, actions):$/;"	m	class:PlanningProblem
+__init__	planning.py	/^    def __init__(self, init, goals, actions, jobs=None, resources=None):$/;"	m	class:Problem
+__init__	planning.py	/^    def __init__(self, kb):$/;"	m	class:Level
+__init__	planning.py	/^    def __init__(self, planningproblem):$/;"	m	class:Graph
+__init__	planning.py	/^    def __init__(self, planningproblem):$/;"	m	class:GraphPlan
+__init__	planning.py	/^    def __init__(self, planningproblem):$/;"	m	class:Linearize
+__init__	planning.py	/^    def __init__(self, planningproblem):$/;"	m	class:PartialOrderPlanner
+__init__	planning.py	/^    def __init__(self, state, parent=None, action_opt=None, action_pes=None,  path_cost=0):$/;"	m	class:Angelic_Node
+__init__	probability.py	/^    def __init__(self, X, parents, cpt):$/;"	m	class:BayesNode
+__init__	probability.py	/^    def __init__(self, action, infer):$/;"	m	class:DecisionNetwork
+__init__	probability.py	/^    def __init__(self, decnet, infer, initial_evidence=None):$/;"	m	class:InformationGatheringAgent
+__init__	probability.py	/^    def __init__(self, m):$/;"	m	class:MCLmap
+__init__	probability.py	/^    def __init__(self, node_specs=None):$/;"	m	class:BayesNet
+__init__	probability.py	/^    def __init__(self, transition_model, sensor_model, prior=None):$/;"	m	class:HiddenMarkovModel
+__init__	probability.py	/^    def __init__(self, variables):$/;"	m	class:JointProbDist
+__init__	probability.py	/^    def __init__(self, variables, cpt):$/;"	m	class:Factor
+__init__	probability.py	/^    def __init__(self, varname='?', freqs=None):$/;"	m	class:ProbDist
+__init__	rl.py	/^        def __init__(self, init, actlist, terminals, gamma, states):$/;"	m	class:PassiveADPAgent.ModelMDP
+__init__	rl.py	/^    def __init__(self, mdp, Ne, Rplus, alpha=None):$/;"	m	class:QLearningAgent
+__init__	rl.py	/^    def __init__(self, pi, mdp):$/;"	m	class:PassiveADPAgent
+__init__	rl.py	/^    def __init__(self, pi, mdp):$/;"	m	class:PassiveDUEAgent
+__init__	rl.py	/^    def __init__(self, pi, mdp, alpha=None):$/;"	m	class:PassiveTDAgent
+__init__	search.py	/^    def __init__(self, N):$/;"	m	class:NQueensProblem
+__init__	search.py	/^    def __init__(self, board=None):$/;"	m	class:BoggleFinder
+__init__	search.py	/^    def __init__(self, file, min_len=3):$/;"	m	class:Wordlist
+__init__	search.py	/^    def __init__(self, graph_dict=None, directed=True):$/;"	m	class:Graph
+__init__	search.py	/^    def __init__(self, initial, goal, allowed, dimrow):$/;"	m	class:PlanRoute
+__init__	search.py	/^    def __init__(self, initial, goal, graph):$/;"	m	class:GraphProblem
+__init__	search.py	/^    def __init__(self, initial, goal, graph):$/;"	m	class:OnlineSearchProblem
+__init__	search.py	/^    def __init__(self, initial, goal=(1, 2, 3, 4, 5, 6, 7, 8, 0)):$/;"	m	class:EightPuzzle
+__init__	search.py	/^    def __init__(self, initial, goal=None):$/;"	m	class:Problem
+__init__	search.py	/^    def __init__(self, initial, grid, defined_actions=directions4):$/;"	m	class:PeakFindingProblem
+__init__	search.py	/^    def __init__(self, initial_state=None):$/;"	m	class:SimpleProblemSolvingAgentProgram
+__init__	search.py	/^    def __init__(self, problem):$/;"	m	class:InstrumentedProblem
+__init__	search.py	/^    def __init__(self, problem):$/;"	m	class:LRTAStarAgent
+__init__	search.py	/^    def __init__(self, problem):$/;"	m	class:OnlineDFSAgent
+__init__	search.py	/^    def __init__(self, state, parent=None, action=None, path_cost=0):$/;"	m	class:Node
+__init__	text.py	/^    def __init__(self):$/;"	m	class:UnixConsultant
+__init__	text.py	/^    def __init__(self, initial=None, goal=None, decoder=None):$/;"	m	class:PermutationDecoderProblem
+__init__	text.py	/^    def __init__(self, n, observation_sequence=None, default=0):$/;"	m	class:NgramWordModel
+__init__	text.py	/^    def __init__(self, observation_sequence=None, default=0):$/;"	m	class:UnigramCharModel
+__init__	text.py	/^    def __init__(self, observations, default=0):$/;"	m	class:UnigramWordModel
+__init__	text.py	/^    def __init__(self, stopwords='the a of'):$/;"	m	class:IRSystem
+__init__	text.py	/^    def __init__(self, title, url, nwords):$/;"	m	class:Document
+__init__	text.py	/^    def __init__(self, training_text):$/;"	m	class:ShiftDecoder
+__init__	text.py	/^    def __init__(self, training_text, ciphertext=None):$/;"	m	class:PermutationDecoder
+__init__	utils.py	/^    def __init__(self, **kwds):$/;"	m	class:injection
+__init__	utils.py	/^    def __init__(self, op, *args):$/;"	m	class:Expr
+__init__	utils.py	/^    def __init__(self, op, lhs):$/;"	m	class:PartialExpr
+__init__	utils.py	/^    def __init__(self, order='min', f=lambda x: x):$/;"	m	class:PriorityQueue
+__invert__	utils.py	/^    def __invert__(self):$/;"	m	class:Expr	file:
+__len__	search.py	/^    def __len__(self):$/;"	m	class:BoggleFinder	file:
+__len__	search.py	/^    def __len__(self):$/;"	m	class:Wordlist	file:
+__len__	utils.py	/^    def __len__(self):$/;"	m	class:PriorityQueue	file:
+__lshift__	utils.py	/^    def __lshift__(self, rhs):$/;"	m	class:Expr	file:
+__lt__	search.py	/^    def __lt__(self, node):$/;"	m	class:Node	file:
+__matmul__	utils.py	/^    def __matmul__(self, rhs):$/;"	m	class:Expr	file:
+__missing__	utils.py	/^    def __missing__(self, key):$/;"	m	class:defaultkeydict	file:
+__mod__	utils.py	/^    def __mod__(self, rhs):$/;"	m	class:Expr	file:
+__mul__	utils.py	/^    def __mul__(self, rhs):$/;"	m	class:Expr	file:
+__neg__	utils.py	/^    def __neg__(self):$/;"	m	class:Expr	file:
+__or__	utils.py	/^    def __or__(self, rhs):$/;"	m	class:Expr	file:
+__or__	utils.py	/^    def __or__(self, rhs):$/;"	m	class:PartialExpr	file:
+__pos__	utils.py	/^    def __pos__(self):$/;"	m	class:Expr	file:
+__pow__	utils.py	/^    def __pow__(self, rhs):$/;"	m	class:Expr	file:
+__radd__	utils.py	/^    def __radd__(self, lhs):$/;"	m	class:Expr	file:
+__rand__	utils.py	/^    def __rand__(self, lhs):$/;"	m	class:Expr	file:
+__rdiv__	utils.py	/^    def __rdiv__(self, lhs):$/;"	m	class:Expr	file:
+__repr__	agents.py	/^    def __repr__(self):$/;"	m	class:Thing	file:
+__repr__	csp.py	/^    def __repr__(self): return '{{Any: {0!r}}}'.format(self.value)$/;"	m	class:UniversalDict	file:
+__repr__	games.py	/^    def __repr__(self):$/;"	m	class:Game	file:
+__repr__	learning.py	/^    def __repr__(self):$/;"	m	class:DataSet	file:
+__repr__	learning.py	/^    def __repr__(self):$/;"	m	class:DecisionFork	file:
+__repr__	learning.py	/^    def __repr__(self):$/;"	m	class:DecisionLeaf	file:
+__repr__	nlp.py	/^    def __repr__(self):$/;"	m	class:Grammar	file:
+__repr__	nlp.py	/^    def __repr__(self):$/;"	m	class:ProbGrammar	file:
+__repr__	planning.py	/^    def __repr__(self):$/;"	m	class:Action	file:
+__repr__	probability.py	/^    def __repr__(self):$/;"	m	class:BayesNet	file:
+__repr__	probability.py	/^    def __repr__(self):$/;"	m	class:BayesNode	file:
+__repr__	probability.py	/^    def __repr__(self):$/;"	m	class:JointProbDist	file:
+__repr__	probability.py	/^    def __repr__(self):$/;"	m	class:ProbDist	file:
+__repr__	search.py	/^    def __repr__(self):$/;"	m	class:InstrumentedProblem	file:
+__repr__	search.py	/^    def __repr__(self):$/;"	m	class:Node	file:
+__repr__	utils.py	/^    def __repr__(self):$/;"	m	class:Expr	file:
+__repr__	utils.py	/^    def __repr__(self):$/;"	m	class:PartialExpr	file:
+__rfloordiv__	utils.py	/^    def __rfloordiv__(self, lhs):$/;"	m	class:Expr	file:
+__rlshift__	utils.py	/^    def __rlshift__(self, lhs):$/;"	m	class:Expr	file:
+__rmatmul__	utils.py	/^    def __rmatmul__(self, lhs):$/;"	m	class:Expr	file:
+__rmod__	utils.py	/^    def __rmod__(self, lhs):$/;"	m	class:Expr	file:
+__rmul__	utils.py	/^    def __rmul__(self, lhs):$/;"	m	class:Expr	file:
+__ror__	utils.py	/^    def __ror__(self, lhs):$/;"	m	class:Expr	file:
+__rpow__	utils.py	/^    def __rpow__(self, lhs):$/;"	m	class:Expr	file:
+__rrshift__	utils.py	/^    def __rrshift__(self, lhs):$/;"	m	class:Expr	file:
+__rshift__	utils.py	/^    def __rshift__(self, rhs):$/;"	m	class:Expr	file:
+__rsub__	utils.py	/^    def __rsub__(self, lhs):$/;"	m	class:Expr	file:
+__rtruediv__	utils.py	/^    def __rtruediv__(self, lhs):$/;"	m	class:Expr	file:
+__rxor__	utils.py	/^    def __rxor__(self, lhs):$/;"	m	class:Expr	file:
+__setitem__	probability.py	/^    def __setitem__(self, val, p):$/;"	m	class:ProbDist	file:
+__setitem__	probability.py	/^    def __setitem__(self, values, p):$/;"	m	class:JointProbDist	file:
+__sub__	utils.py	/^    def __sub__(self, rhs):$/;"	m	class:Expr	file:
+__truediv__	utils.py	/^    def __truediv__(self, rhs):$/;"	m	class:Expr	file:
+__xor__	utils.py	/^    def __xor__(self, rhs):$/;"	m	class:Expr	file:
+_mat_mult	utils.py	/^    def _mat_mult(X_M, Y_M):$/;"	f	function:matrix_multiplication
+_op_identity	logic.py	/^_op_identity = {'&': True, '|': False, '+': 0, '*': 1}$/;"	v
+a	example.py	/^a = A()$/;"	v
+abut	csp.py	/^        def abut(lines1, lines2): return list($/;"	f	function:Sudoku.display
+act	planning.py	/^    def act(self, action):$/;"	m	class:PlanningProblem
+act	planning.py	/^    def act(self, action):$/;"	m	class:Problem
+act	planning.py	/^    def act(self, kb, args):$/;"	m	class:Action
+actions	csp.py	/^    def actions(self, state):$/;"	m	class:CSP
+actions	games.py	/^    def actions(self, state):$/;"	m	class:Backgammon
+actions	games.py	/^    def actions(self, state):$/;"	m	class:ConnectFour
+actions	games.py	/^    def actions(self, state):$/;"	m	class:Fig52Extended
+actions	games.py	/^    def actions(self, state):$/;"	m	class:Fig52Game
+actions	games.py	/^    def actions(self, state):$/;"	m	class:Game
+actions	games.py	/^    def actions(self, state):$/;"	m	class:TicTacToe
+actions	mdp.py	/^    def actions(self, state):$/;"	m	class:MDP
+actions	search.py	/^    def actions(self, A):$/;"	m	class:GraphProblem
+actions	search.py	/^    def actions(self, state):$/;"	m	class:EightPuzzle
+actions	search.py	/^    def actions(self, state):$/;"	m	class:InstrumentedProblem
+actions	search.py	/^    def actions(self, state):$/;"	m	class:NQueensProblem
+actions	search.py	/^    def actions(self, state):$/;"	m	class:OnlineSearchProblem
+actions	search.py	/^    def actions(self, state):$/;"	m	class:PeakFindingProblem
+actions	search.py	/^    def actions(self, state):$/;"	m	class:PlanRoute
+actions	search.py	/^    def actions(self, state):$/;"	m	class:Problem
+actions	text.py	/^    def actions(self, state):$/;"	m	class:PermutationDecoderProblem
+actions_in_state	rl.py	/^    def actions_in_state(self, state):$/;"	m	class:QLearningAgent
+add	example.py	/^    def add(self,x,y):$/;"	m	class:A
+add	learning.py	/^    def add(self, o):$/;"	m	class:CountingProbDist
+add	learning.py	/^    def add(self, val, subtree):$/;"	m	class:DecisionFork
+add	mdp.py	/^    def add(A, B):$/;"	m	class:Matrix
+add	probability.py	/^    def add(self, node_spec):$/;"	m	class:BayesNet
+add_cond_prob	text.py	/^    def add_cond_prob(self, ngram):$/;"	m	class:NgramWordModel
+add_const	planning.py	/^    def add_const(self, constraint, constraints):$/;"	m	class:PartialOrderPlanner
+add_edge	nlp.py	/^    def add_edge(self, edge):$/;"	m	class:Chart
+add_example	learning.py	/^    def add_example(self, example):$/;"	m	class:DataSet
+add_observer	agents.py	/^    def add_observer(self, observer):$/;"	m	class:XYEnvironment
+add_obstacle	agents.py	/^    def add_obstacle(self, coordinates):$/;"	m	class:ContinuousWorld
+add_or	knowledge.py	/^def add_or(examples_so_far, h):$/;"	f
+add_sequence	text.py	/^    def add_sequence(self, words):$/;"	m	class:NgramCharModel
+add_sequence	text.py	/^    def add_sequence(self, words):$/;"	m	class:NgramWordModel
+add_sequence	text.py	/^    def add_sequence(self, words):$/;"	m	class:UnigramCharModel
+add_temporal_sentences	logic.py	/^    def add_temporal_sentences(self, time):$/;"	m	class:WumpusKB
+add_thing	agents.py	/^    def add_thing(self, thing, location=(1, 1), exclude_duplicate_class_items=False):$/;"	m	class:XYEnvironment
+add_thing	agents.py	/^    def add_thing(self, thing, location=None):$/;"	m	class:Environment
+add_walls	agents.py	/^    def add_walls(self):$/;"	m	class:XYEnvironment
+air_cargo	planning.py	/^def air_cargo():$/;"	f
+air_cargo_graphplan	planning.py	/^def air_cargo_graphplan():$/;"	f
+alert	notebook.py	/^    def alert(self, message):$/;"	m	class:Canvas
+all_events	probability.py	/^def all_events(variables, bn, e):$/;"	f
+all_hypotheses	knowledge.py	/^def all_hypotheses(examples):$/;"	f
+all_same_class	learning.py	/^    def all_same_class(examples):$/;"	f	function:DecisionTreeLearner
+all_shifts	text.py	/^def all_shifts(text):$/;"	f
+alphabet	text.py	/^alphabet = 'abcdefghijklmnopqrstuvwxyz'$/;"	v
+alphabeta_cutoff_search	games.py	/^def alphabeta_cutoff_search(state, game, d=4, cutoff_test=None, eval_fn=None):$/;"	f
+alphabeta_player	games.py	/^def alphabeta_player(game, state):$/;"	f
+alphabeta_search	games.py	/^def alphabeta_search(state, game):$/;"	f
+alphabeta_search	notebook.py	/^    def alphabeta_search(self, node):$/;"	m	class:Canvas_alphabeta
+and_or_graph_search	search.py	/^def and_or_graph_search(problem):$/;"	f
+and_search	search.py	/^    def and_search(states, problem, path):$/;"	f	function:and_or_graph_search
+angelic_action	planning.py	/^    def angelic_action(self):$/;"	m	class:Angelic_HLA
+angelic_search	planning.py	/^    def angelic_search(problem, hierarchy, initialPlan):$/;"	m	class:Problem
+append	utils.py	/^    def append(self, item):$/;"	m	class:PriorityQueue
+arc	notebook.py	/^    def arc(self, x, y, r, start, stop):$/;"	m	class:Canvas
+arc_n	notebook.py	/^    def arc_n(self, xn, yn, rn, start, stop):$/;"	m	class:Canvas
+argmax	utils.py	/^argmax = max$/;"	v
+argmax_random_tie	utils.py	/^def argmax_random_tie(seq, key=identity):$/;"	f
+argmin	utils.py	/^argmin = min$/;"	v
+argmin_random_tie	utils.py	/^def argmin_random_tie(seq, key=identity):$/;"	f
+arity	utils.py	/^def arity(expression):$/;"	f
+ask	logic.py	/^    def ask(self, query):$/;"	m	class:KB
+ask_generator	logic.py	/^    def ask_generator(self, query):$/;"	m	class:FolKB
+ask_generator	logic.py	/^    def ask_generator(self, query):$/;"	m	class:KB
+ask_generator	logic.py	/^    def ask_generator(self, query):$/;"	m	class:PropDefiniteKB
+ask_generator	logic.py	/^    def ask_generator(self, query):$/;"	m	class:PropKB
+ask_if_true	logic.py	/^    def ask_if_true(self, query):$/;"	m	class:PropKB
+ask_if_true	logic.py	/^    def ask_if_true(self, query):$/;"	m	class:WumpusKB
+assign	csp.py	/^    def assign(self, var, val, assignment):$/;"	m	class:CSP
+assign	csp.py	/^    def assign(self, var, val, assignment):$/;"	m	class:NQueensCSP
+assign_value	csp.py	/^def assign_value(Xj, Xk, csp, assignment):$/;"	f
+associate	logic.py	/^def associate(op, args):$/;"	f
+astar_search	search.py	/^def astar_search(problem, h=None):$/;"	f
+attrnum	learning.py	/^    def attrnum(self, attr):$/;"	m	class:DataSet
+australia	csp.py	/^australia = MapColoringCSP(list('RGB'),$/;"	v
+australia_map	search.py	/^australia_map = UndirectedGraph(dict($/;"	v
+b	example.py	/^b = B()$/;"	v
+backtrack	csp.py	/^    def backtrack(assignment):$/;"	f	function:backtracking_search
+backtrack_counter	csp.py	/^backtrack_counter = 0$/;"	v
+backtracking_search	csp.py	/^def backtracking_search(csp,$/;"	f
+backward	probability.py	/^def backward(HMM, b, ev):$/;"	f
+best_action	probability.py	/^    def best_action(self):$/;"	m	class:DecisionNetwork
+best_first_graph_search	search.py	/^def best_first_graph_search(problem, f):$/;"	f
+best_policy	mdp.py	/^def best_policy(mdp, U):$/;"	f
+bgrid	csp.py	/^    bgrid = _BGRID$/;"	v	class:Sudoku
+bidirectional_search	search.py	/^def bidirectional_search(problem):$/;"	f
+bigrams	text.py	/^def bigrams(text):$/;"	f
+boggle_hill_climbing	search.py	/^def boggle_hill_climbing(board=None, ntimes=100, verbose=True):$/;"	f
+boggle_neighbors	search.py	/^def boggle_neighbors(n2, cache={}):$/;"	f
+boxes	csp.py	/^    boxes = _BOXES$/;"	v	class:Sudoku
+boyan_best	search.py	/^boyan_best = list('RSTCSDEIAEGNLRPEATESMSSID')$/;"	v
+breadth_first_graph_search	search.py	/^def breadth_first_graph_search(problem):$/;"	f
+breadth_first_tree_search	search.py	/^def breadth_first_tree_search(problem):$/;"	f
+breeze	logic.py	/^def breeze(x, y):$/;"	f
+build	planning.py	/^    def build(self, actions, objects):$/;"	m	class:Level
+build_attr_combinations	knowledge.py	/^def build_attr_combinations(s, values):$/;"	f
+build_h_combinations	knowledge.py	/^def build_h_combinations(hypotheses):$/;"	f
+build_topological	csp.py	/^def build_topological(node, parent, neighbors, visited, stack, parents):$/;"	f
+burglary	probability.py	/^burglary = BayesNet([$/;"	v
+c	search.py	/^    def c(self, s, a, s1):$/;"	m	class:OnlineSearchProblem
+calculate_T	mdp.py	/^    def calculate_T(self, state, action):$/;"	m	class:GridMDP
+can_grab	agents.py	/^    def can_grab(self, thing):$/;"	m	class:Agent
+can_grab	agents.py	/^    def can_grab(self, thing):$/;"	m	class:Explorer
+canonicalize	text.py	/^def canonicalize(text):$/;"	f
+chance_node	games.py	/^    def chance_node(state, action):$/;"	f	function:expectiminimax
+chances	games.py	/^    def chances(self, state):$/;"	m	class:Backgammon
+chances	games.py	/^    def chances(self, state):$/;"	m	class:StochasticGame
+check_all_consistency	knowledge.py	/^def check_all_consistency(examples, h):$/;"	f
+check_consistency	mdp.py	/^    def check_consistency(self):$/;"	m	class:MDP
+check_example	learning.py	/^    def check_example(self, example):$/;"	m	class:DataSet
+check_leveloff	planning.py	/^    def check_leveloff(self):$/;"	m	class:GraphPlan
+check_me	learning.py	/^    def check_me(self):$/;"	m	class:DataSet
+check_negative_consistency	knowledge.py	/^def check_negative_consistency(examples, h):$/;"	f
+check_precond	planning.py	/^    def check_precond(self, kb, args):$/;"	m	class:Action
+check_solvability	search.py	/^    def check_solvability(self, state):$/;"	m	class:EightPuzzle
+checkers_at_home	games.py	/^    def checkers_at_home(self, board, player):$/;"	m	class:Backgammon
+child_node	search.py	/^    def child_node(self, problem, action):$/;"	m	class:Node
+choices	csp.py	/^    def choices(self, var):$/;"	m	class:CSP
+choose_attribute	learning.py	/^    def choose_attribute(attrs, examples):$/;"	f	function:DecisionTreeLearner
+choose_literal	knowledge.py	/^    def choose_literal(self, literals, examples): $/;"	m	class:FOIL_container
+class_probability	learning.py	/^        def class_probability(targetval):$/;"	f	function:NaiveBayesContinuous.predict
+class_probability	learning.py	/^        def class_probability(targetval):$/;"	f	function:NaiveBayesDiscrete.predict
+class_probability	learning.py	/^        def class_probability(targetval):$/;"	f	function:NaiveBayesSimple.predict
+classes_to_numbers	learning.py	/^    def classes_to_numbers(self, classes=None):$/;"	m	class:DataSet
+clauses_with_premise	logic.py	/^    def clauses_with_premise(self, p):$/;"	m	class:PropDefiniteKB
+clear	notebook.py	/^    def clear(self):$/;"	m	class:Canvas
+clip	utils.py	/^def clip(x, lowest, highest):$/;"	f
+cnf_rules	nlp.py	/^    def cnf_rules(self):$/;"	m	class:Grammar
+cnf_rules	nlp.py	/^    def cnf_rules(self):$/;"	m	class:ProbGrammar
+collect	logic.py	/^    def collect(subargs):$/;"	f	function:dissociate
+cols	csp.py	/^    cols = _COLS$/;"	v	class:Sudoku
+compare	learning.py	/^def compare(algorithms=None,$/;"	f
+compare_agents	agents.py	/^def compare_agents(EnvFactory, AgentFactories, n=10, steps=1000):$/;"	f
+compare_graph_searchers	search.py	/^def compare_graph_searchers():$/;"	f
+compare_searchers	search.py	/^def compare_searchers(problems, header,$/;"	f
+compute_parameters	planning.py	/^    def compute_parameters(clause, effects):$/;"	m	class:Angelic_HLA
+compute_utility	games.py	/^    def compute_utility(self, board, move, player):$/;"	m	class:Backgammon
+compute_utility	games.py	/^    def compute_utility(self, board, move, player):$/;"	m	class:TicTacToe
+conceal	agents.py	/^    def conceal(self):$/;"	m	class:GraphicEnvironment
+conflict	csp.py	/^        def conflict(var2):$/;"	f	function:CSP.nconflicts
+conflict	search.py	/^    def conflict(self, row1, col1, row2, col2):$/;"	m	class:NQueensProblem
+conflicted	search.py	/^    def conflicted(self, state, row, col):$/;"	m	class:NQueensProblem
+conflicted_vars	csp.py	/^    def conflicted_vars(self, current):$/;"	m	class:CSP
+conjuncts	logic.py	/^def conjuncts(s):$/;"	f
+connect	search.py	/^    def connect(self, A, B, distance=1):$/;"	m	class:Graph
+connect1	search.py	/^    def connect1(self, A, B, distance):$/;"	m	class:Graph
+consistent_det	knowledge.py	/^def consistent_det(A, E):$/;"	f
+consistent_with	probability.py	/^def consistent_with(event, evidence):$/;"	f
+constant_symbols	logic.py	/^def constant_symbols(x):$/;"	f
+convergence	nlp.py	/^convergence = ConvergenceDetector()  # assign function to variable to mimic pseudocode's syntax$/;"	v
+convert	planning.py	/^    def convert(self, clauses):$/;"	m	class:Action
+convert	planning.py	/^    def convert(self, clauses):$/;"	m	class:Angelic_HLA
+convert	planning.py	/^    def convert(self, clauses):$/;"	m	class:PlanningProblem
+convert	planning.py	/^    def convert(self, constraints):$/;"	m	class:PartialOrderPlanner
+cost	probability.py	/^    def cost(self, var):$/;"	m	class:InformationGatheringAgent
+count	learning.py	/^    def count(attr, val, examples):$/;"	f	function:DecisionTreeLearner
+count	utils.py	/^def count(seq):$/;"	f
+crime_kb	logic.py	/^crime_kb = FolKB($/;"	v
+cross_entropy_loss	learning.py	/^def cross_entropy_loss(X,Y):$/;"	f
+cross_validation	learning.py	/^def cross_validation(learner, size, dataset, k=10, trials=1):$/;"	f
+cross_validation_wrapper	learning.py	/^def cross_validation_wrapper(learner, dataset, k=10, trials=1):$/;"	f
+cubes16	search.py	/^cubes16 = ['FORIXB', 'MOQABJ', 'GURILW', 'SETUPL',$/;"	v
+current_best_learning	knowledge.py	/^def current_best_learning(examples, h, examples_so_far=None):$/;"	f
+cyclic	planning.py	/^    def cyclic(self, graph):$/;"	m	class:PartialOrderPlanner
+d	logic.py	/^def d(y, x):$/;"	f
+data_bagging	learning.py	/^    def data_bagging(dataset, m=0):$/;"	f	function:RandomForest
+decision_list_learning	learning.py	/^    def decision_list_learning(examples):$/;"	f	function:DecisionListLearner
+decision_tree_learning	learning.py	/^    def decision_tree_learning(examples, attrs, parent_examples=()):$/;"	f	function:DecisionTreeLearner
+decode	text.py	/^    def decode(self, ciphertext):$/;"	m	class:PermutationDecoder
+decode	text.py	/^    def decode(self, ciphertext):$/;"	m	class:ShiftDecoder
+decompose	planning.py	/^    def decompose(hierarchy, s_0, plan, s_f, reachable_set):$/;"	m	class:Problem
+default_location	agents.py	/^    def default_location(self, thing):$/;"	m	class:Environment
+default_location	agents.py	/^    def default_location(self, thing):$/;"	m	class:TrivialVacuumEnvironment
+default_location	agents.py	/^    def default_location(self, thing):$/;"	m	class:XYEnvironment
+defaultkeydict	utils.py	/^class defaultkeydict(collections.defaultdict):$/;"	c
+definite_clauses_KB	logic.py	/^definite_clauses_KB = PropDefiniteKB()$/;"	v
+delete_thing	agents.py	/^    def delete_thing(self, thing):$/;"	m	class:Environment
+delete_thing	agents.py	/^    def delete_thing(self, thing):$/;"	m	class:XYEnvironment
+depth_first_graph_search	search.py	/^def depth_first_graph_search(problem):$/;"	f
+depth_first_tree_search	search.py	/^def depth_first_tree_search(problem):$/;"	f
+depth_limited_search	search.py	/^def depth_limited_search(problem, limit=50):$/;"	f
+detect	nlp.py	/^    def detect(self):$/;"	m	class:ConvergenceDetector
+determineInlinks	nlp.py	/^def determineInlinks(page):$/;"	f
+dfs	notebook.py	/^        def dfs(node, depth):$/;"	f	function:Canvas_fol_bc_ask.make_table
+diff	logic.py	/^def diff(y, x):$/;"	f
+different_values_constraint	csp.py	/^def different_values_constraint(A, a, B, b):$/;"	f
+digit_classes	notebook.py	/^digit_classes = [str(i) for i in range(10)]$/;"	v
+direction	agents.py	/^    direction = Direction("right")$/;"	v	class:Explorer
+directions4	search.py	/^directions4 = { 'W':(-1, 0), 'N':(0, 1), 'E':(1, 0), 'S':(0, -1) }$/;"	v
+directions8	search.py	/^directions8 = dict(directions4) $/;"	v
+disjunction_value	knowledge.py	/^def disjunction_value(e, d):$/;"	f
+disjuncts	logic.py	/^def disjuncts(s):$/;"	f
+display	agents.py	/^    def display(self, canvas, x, y, width, height):$/;"	m	class:Thing
+display	csp.py	/^    def display(self, assignment):$/;"	m	class:CSP
+display	csp.py	/^    def display(self, assignment):$/;"	m	class:NQueensCSP
+display	csp.py	/^    def display(self, assignment):$/;"	m	class:Sudoku
+display	games.py	/^    def display(self, state):$/;"	m	class:Backgammon
+display	games.py	/^    def display(self, state):$/;"	m	class:Game
+display	games.py	/^    def display(self, state):$/;"	m	class:TicTacToe
+display	learning.py	/^    def display(self, indent=0):$/;"	m	class:DecisionFork
+display	learning.py	/^    def display(self, indent=0):$/;"	m	class:DecisionLeaf
+display_html	notebook.py	/^def display_html(html_string):$/;"	f
+display_plan	planning.py	/^    def display_plan(self):$/;"	m	class:PartialOrderPlanner
+display_visual	notebook.py	/^def display_visual(graph_data, user_input, algorithm=None, problem=None):$/;"	f
+dissociate	logic.py	/^def dissociate(op, args):$/;"	f
+distance	utils.py	/^def distance(a, b):$/;"	f
+distance_squared	utils.py	/^def distance_squared(a, b):$/;"	f
+distance_to_node	search.py	/^                def distance_to_node(n):$/;"	f	function:RandomGraph
+distribute_and_over_or	logic.py	/^def distribute_and_over_or(s):$/;"	f
+do	search.py	/^    def do(searcher, problem):$/;"	f	function:compare_searchers
+do_action	planning.py	/^    def do_action(self, job_order, available_resources, kb, args):$/;"	m	class:HLA
+dotproduct	utils.py	/^def dotproduct(X, Y):$/;"	f
+double_tennis_problem	planning.py	/^def double_tennis_problem():$/;"	f
+dpll	logic.py	/^def dpll(clauses, symbols, model):$/;"	f
+dpll_satisfiable	logic.py	/^def dpll_satisfiable(s):$/;"	f
+draw_board	notebook.py	/^    def draw_board(self):$/;"	m	class:Canvas_TicTacToe
+draw_graph	notebook.py	/^    def draw_graph(self):$/;"	m	class:Canvas_alphabeta
+draw_graph	notebook.py	/^    def draw_graph(self):$/;"	m	class:Canvas_minimax
+draw_o	notebook.py	/^    def draw_o(self, position):$/;"	m	class:Canvas_TicTacToe
+draw_table	notebook.py	/^    def draw_table(self):$/;"	m	class:Canvas_fol_bc_ask
+draw_world	agents.py	/^    def draw_world(self):$/;"	m	class:GraphicEnvironment
+draw_x	notebook.py	/^    def draw_x(self, position):$/;"	m	class:Canvas_TicTacToe
+e	KenKen.py	/^e = KenKen(hard11)$/;"	v
+easy1	csp.py	/^easy1 = '..3.2.6..9..3.5..1..18.64....81.29..7.......8..67.82....26.95..8..2.3..9..5.1.3..'$/;"	v
+easy11	KenKen.py	/^easy11 = '4|16*0,4,5|1-1,2|1?3|2\/6,10|9+7,11,15|1-8,12|3?9|3-13,14'$/;"	v
+element_wise_product	utils.py	/^def element_wise_product(X, Y):$/;"	f
+eliminate_implications	logic.py	/^def eliminate_implications(s):$/;"	f
+elimination_ask	probability.py	/^def elimination_ask(X, e, bn):$/;"	f
+elu	utils.py	/^def elu(x, alpha=0.01):$/;"	f
+elu_derivative	utils.py	/^def elu_derivative(value, alpha = 0.01):$/;"	f
+encode	text.py	/^def encode(plaintext, code):$/;"	f
+enum_subst	logic.py	/^    def enum_subst(p):$/;"	f	function:fol_fc_ask
+enumerate_all	probability.py	/^def enumerate_all(variables, e, bn):$/;"	f
+enumerate_joint	probability.py	/^def enumerate_joint(variables, e, P):$/;"	f
+enumerate_joint_ask	probability.py	/^def enumerate_joint_ask(X, e, P):$/;"	f
+enumeration_ask	probability.py	/^def enumeration_ask(X, e, bn):$/;"	f
+equiv	logic.py	/^def equiv(lhs, rhs):$/;"	f
+err_ratio	learning.py	/^def err_ratio(predict, dataset, examples=None, verbose=0):$/;"	f
+estimate_U	rl.py	/^    def estimate_U(self):$/;"	m	class:PassiveDUEAgent
+euclidean_distance	learning.py	/^def euclidean_distance(X, Y):$/;"	f
+event_values	probability.py	/^def event_values(event, variables):$/;"	f
+exact_sqrt	search.py	/^def exact_sqrt(n2):$/;"	f
+examplePagesSet	nlp.py	/^examplePagesSet = ["https:\/\/en.wikipedia.org\/wiki\/", "Aesthetics", "Analytic_philosophy",$/;"	v
+execute	logic.py	/^    def execute(self, percept):$/;"	m	class:HybridWumpusAgent
+execute	notebook.py	/^    def execute(self, exec_str):$/;"	m	class:Canvas
+execute	planning.py	/^    def execute(self):$/;"	m	class:GraphPlan
+execute	planning.py	/^    def execute(self):$/;"	m	class:Linearize
+execute	planning.py	/^    def execute(self, display=True):$/;"	m	class:PartialOrderPlanner
+execute	probability.py	/^    def execute(self, percept):$/;"	m	class:InformationGatheringAgent
+execute_action	agents.py	/^    def execute_action(self, agent, action):$/;"	m	class:Environment
+execute_action	agents.py	/^    def execute_action(self, agent, action):$/;"	m	class:TrivialVacuumEnvironment
+execute_action	agents.py	/^    def execute_action(self, agent, action):$/;"	m	class:VacuumEnvironment
+execute_action	agents.py	/^    def execute_action(self, agent, action):$/;"	m	class:WumpusEnvironment
+execute_action	agents.py	/^    def execute_action(self, agent, action):$/;"	m	class:XYEnvironment
+existInSublist	KenKen.py	/^    def existInSublist(self,var1,var2,l):$/;"	m	class:KenKen
+exogenous_change	agents.py	/^    def exogenous_change(self):$/;"	m	class:Environment
+exp_schedule	search.py	/^def exp_schedule(k=20, lam=0.005, limit=100):$/;"	f
+expand	search.py	/^    def expand(self, problem):$/;"	m	class:Node
+expand_actions	planning.py	/^    def expand_actions(self, name=None):$/;"	m	class:PartialOrderPlanner
+expand_graph	planning.py	/^    def expand_graph(self):$/;"	m	class:Graph
+expand_pages	nlp.py	/^def expand_pages(pages):$/;"	f
+expected_utility	mdp.py	/^def expected_utility(a, s, U, mdp):$/;"	f
+expectiminimax	games.py	/^def expectiminimax(state, game):$/;"	f
+expectiminimax_player	games.py	/^def expectiminimax_player(game, state):$/;"	f
+expr	utils.py	/^def expr(x):$/;"	f
+expr_handle_infix_ops	utils.py	/^def expr_handle_infix_ops(x):$/;"	f
+extend	logic.py	/^def extend(s, var, val):$/;"	f
+extend	search.py	/^    def extend(U, open_dir, open_other, g_dir, g_other, closed_dir):$/;"	f	function:bidirectional_search
+extend	utils.py	/^    def extend(self, items):$/;"	m	class:PriorityQueue
+extend_example	knowledge.py	/^    def extend_example(self, example, literal):$/;"	m	class:FOIL_container
+extender	nlp.py	/^    def extender(self, edge):$/;"	m	class:Chart
+extra_hard	KenKen.py	/^extra_hard = '9|20*0,1,2|5-4,5|30+3,12,21,30|19+6,15,16|120*7,8,17|17+9,10,11,19|17+13,14,23|2-18,27|42*20,29|2-22,31|13+24,33,42|4-25,26|11+34,35,44|72*28,37,38|1-39,40|1-41,32|13+36,45,46|3+47,56|1-54,55|45*48,49|2-50,51|1-52,43|10+57,58|64*59,60,61|3-62,53|5-63,72|1-64,73|160*65,66,74,75|4-67,68|1?76|56*69,70,71|2\/78,77|18*79,80'$/;"	v
+extract_solution	logic.py	/^    def extract_solution(model):$/;"	f	function:SAT_plan
+extract_solution	planning.py	/^    def extract_solution(self, goals, index):$/;"	m	class:GraphPlan
+f	rl.py	/^    def f(self, u, n):$/;"	m	class:QLearningAgent
+facing_east	logic.py	/^def facing_east (time):$/;"	f
+facing_north	logic.py	/^def facing_north (time):$/;"	f
+facing_south	logic.py	/^def facing_south (time):$/;"	f
+facing_west	logic.py	/^def facing_west (time):$/;"	f
+failure_test	utils.py	/^def failure_test(algorithm, tests):$/;"	f
+false_negative	knowledge.py	/^def false_negative(e, h):$/;"	f
+false_positive	knowledge.py	/^def false_positive(e, h):$/;"	f
+fashion_classes	notebook.py	/^fashion_classes = ["T-shirt\/top", "Trouser", "Pullover", "Dress", "Coat",$/;"	v
+feature_bagging	learning.py	/^    def feature_bagging(dataset, p=0.7):$/;"	f	function:RandomForest
+fetch_rules_for_goal	logic.py	/^    def fetch_rules_for_goal(self, goal):$/;"	m	class:FolKB
+fill	notebook.py	/^    def fill(self, r, g, b):$/;"	m	class:Canvas
+filter	planning.py	/^    def filter(self, solution):$/;"	m	class:Linearize
+final_path_colors	notebook.py	/^def final_path_colors(initial_node_colors, problem, solution):$/;"	f
+find	search.py	/^    def find(self, lo, hi, i, visited, prefix):$/;"	m	class:BoggleFinder
+findCage	KenKen.py	/^    def findCage(self,var):$/;"	m	class:KenKen
+findOutlinks	nlp.py	/^def findOutlinks(page, handleURLs=None):$/;"	f
+find_action_for_precondition	planning.py	/^    def find_action_for_precondition(self, oprec):$/;"	m	class:PartialOrderPlanner
+find_blank_square	search.py	/^    def find_blank_square(self, state):$/;"	m	class:EightPuzzle
+find_examples	learning.py	/^    def find_examples(examples):$/;"	f	function:DecisionListLearner
+find_hla	planning.py	/^    def find_hla(plan, hierarchy):$/;"	m	class:Problem
+find_key	search.py	/^    def find_key(pr_min, open_dir, g):$/;"	f	function:bidirectional_search
+find_max_node	learning.py	/^def find_max_node(nodes):$/;"	f
+find_means_and_deviations	learning.py	/^    def find_means_and_deviations(self):$/;"	m	class:DataSet
+find_min	search.py	/^    def find_min(open_dir, g):$/;"	f	function:bidirectional_search
+find_min_edge	search.py	/^    def find_min_edge(self):$/;"	m	class:GraphProblem
+find_mutex	planning.py	/^    def find_mutex(self):$/;"	m	class:Level
+find_open_precondition	planning.py	/^    def find_open_precondition(self):$/;"	m	class:PartialOrderPlanner
+find_previous_state	planning.py	/^    def find_previous_state(s_f, reachable_set, i, action):$/;"	m	class:Problem
+find_pure_symbol	logic.py	/^def find_pure_symbol(symbols, clauses):$/;"	f
+find_reachable_set	planning.py	/^    def find_reachable_set(reachable_set, action_description):$/;"	m	class:Problem
+find_unit_clause	logic.py	/^def find_unit_clause(clauses, model):$/;"	f
+first	utils.py	/^def first(iterable, default=None):$/;"	f
+first_unassigned_variable	csp.py	/^def first_unassigned_variable(assignment, csp):$/;"	f
+fitness_threshold	search.py	/^def fitness_threshold(fitness_fn, f_thres, population):$/;"	f
+fixed_lag_smoothing	probability.py	/^def fixed_lag_smoothing(e_t, HMM, d, ev, t):$/;"	f
+flatten	csp.py	/^def flatten(seqs):$/;"	f
+flatten	learning.py	/^def flatten(seqs): return sum(seqs, [])$/;"	f
+foil	knowledge.py	/^    def foil(self, examples, target):$/;"	m	class:FOIL_container
+fol_bc_and	logic.py	/^def fol_bc_and(KB, goals, theta):$/;"	f
+fol_bc_and	notebook.py	/^        def fol_bc_and(KB, goals, theta):$/;"	f	function:Canvas_fol_bc_ask.fol_bc_ask
+fol_bc_ask	logic.py	/^def fol_bc_ask(KB, query):$/;"	f
+fol_bc_ask	notebook.py	/^    def fol_bc_ask(self):$/;"	m	class:Canvas_fol_bc_ask
+fol_bc_or	logic.py	/^def fol_bc_or(KB, goal, theta):$/;"	f
+fol_bc_or	notebook.py	/^        def fol_bc_or(KB, goal, theta):$/;"	f	function:Canvas_fol_bc_ask.fol_bc_ask
+fol_fc_ask	logic.py	/^def fol_fc_ask(KB, alpha):$/;"	f
+font	notebook.py	/^    def font(self, font):$/;"	m	class:Canvas
+formulate_goal	search.py	/^    def formulate_goal(self, state):$/;"	m	class:SimpleProblemSolvingAgentProgram
+formulate_problem	search.py	/^    def formulate_problem(self, state, goal):$/;"	m	class:SimpleProblemSolvingAgentProgram
+forward	probability.py	/^def forward(HMM, fv, ev):$/;"	f
+forward_backward	probability.py	/^def forward_backward(HMM, ev, prior):$/;"	f
+forward_checking	csp.py	/^def forward_checking(csp, var, value, assignment, removals):$/;"	f
+france	csp.py	/^france = MapColoringCSP(list('RGBY'),$/;"	v
+gain	knowledge.py	/^    def gain(self, l ,examples):$/;"	m	class:FOIL_container
+gaussian	utils.py	/^def gaussian(mean, st_dev, x):$/;"	f
+gaussian_kernel	notebook.py	/^def gaussian_kernel(l=5, sig=1.0):$/;"	f
+gen	learning.py	/^    def gen():$/;"	f	function:SyntheticRestaurant
+generalizations	knowledge.py	/^def generalizations(examples_so_far, h):$/;"	f
+generate_action_object	planning.py	/^    def generate_action_object(self, action, bindings):$/;"	m	class:PartialOrderPlanner
+generate_expr	planning.py	/^    def generate_expr(self, clause, bindings):$/;"	m	class:PartialOrderPlanner
+generate_mapping	mdp.py	/^    def generate_mapping(self, best, input_values):$/;"	m	class:POMDP
+generate_random	nlp.py	/^    def generate_random(self, S='S'):$/;"	m	class:Grammar
+generate_random	nlp.py	/^    def generate_random(self, S='S'):$/;"	m	class:ProbGrammar
+genetic_algorithm	search.py	/^def genetic_algorithm(population, fitness_fn, gene_pool=[0, 1], f_thres=None, ngen=1000, pmut=0.1):$/;"	f
+genetic_search	search.py	/^def genetic_search(problem, fitness_fn, ngen=1000, pmut=0.1, n=20):$/;"	f
+get	search.py	/^    def get(self, a, b=None):$/;"	m	class:Graph
+getDomains	KenKen.py	/^    def getDomains(self):$/;"	m	class:KenKen
+getInlinks	nlp.py	/^def getInlinks(page):$/;"	f
+getOp	KenKen.py	/^    def getOp(self):$/;"	m	class:Cage
+getOpfunc	KenKen.py	/^    def getOpfunc(self):$/;"	m	class:Cage
+getOutlinks	nlp.py	/^def getOutlinks(page):$/;"	f
+getVars	KenKen.py	/^    def getVars(self):$/;"	m	class:Cage
+get_all_moves	games.py	/^    def get_all_moves(self, board, player):$/;"	m	class:Backgammon
+get_expected_utility	probability.py	/^    def get_expected_utility(self, action, evidence):$/;"	m	class:DecisionNetwork
+get_location	logic.py	/^    def get_location(self):$/;"	m	class:WumpusPosition
+get_orientation	logic.py	/^    def get_orientation(self):$/;"	m	class:WumpusPosition
+get_polygon_obstacles_coordinates	ipyviews.py	/^    def get_polygon_obstacles_coordinates(self):$/;"	m	class:ContinuousWorldView
+get_states_from_transitions	mdp.py	/^    def get_states_from_transitions(self, transitions):$/;"	m	class:MDP
+get_utility	probability.py	/^    def get_utility(self, action, state):$/;"	m	class:DecisionNetwork
+get_world	agents.py	/^    def get_world(self):$/;"	m	class:GraphicEnvironment
+get_world	agents.py	/^    def get_world(self, show_walls=True):$/;"	m	class:WumpusEnvironment
+gibbs_ask	probability.py	/^def gibbs_ask(X, e, bn, N=1000):$/;"	f
+go	mdp.py	/^    def go(self, state, direction):$/;"	m	class:GridMDP
+go_to_sfo	planning.py	/^def go_to_sfo():$/;"	f
+goal_test	csp.py	/^    def goal_test(self, state):$/;"	m	class:CSP
+goal_test	planning.py	/^    def goal_test(self):$/;"	m	class:PlanningProblem
+goal_test	planning.py	/^    def goal_test(self, kb):$/;"	m	class:GraphPlan
+goal_test	planning.py	/^def goal_test(goals, state):$/;"	f
+goal_test	search.py	/^    def goal_test(self, state):$/;"	m	class:EightPuzzle
+goal_test	search.py	/^    def goal_test(self, state):$/;"	m	class:InstrumentedProblem
+goal_test	search.py	/^    def goal_test(self, state):$/;"	m	class:NQueensProblem
+goal_test	search.py	/^    def goal_test(self, state):$/;"	m	class:OnlineSearchProblem
+goal_test	search.py	/^    def goal_test(self, state):$/;"	m	class:PlanRoute
+goal_test	search.py	/^    def goal_test(self, state):$/;"	m	class:Problem
+goal_test	text.py	/^    def goal_test(self, state):$/;"	m	class:PermutationDecoderProblem
+grade_learner	learning.py	/^def grade_learner(predict, tests):$/;"	f
+greedy_best_first_graph_search	search.py	/^greedy_best_first_graph_search = best_first_graph_search$/;"	v
+guess_value	knowledge.py	/^def guess_value(e, h):$/;"	f
+h	search.py	/^    def h(self, node):$/;"	m	class:EightPuzzle
+h	search.py	/^    def h(self, node):$/;"	m	class:GraphProblem
+h	search.py	/^    def h(self, node):$/;"	m	class:NQueensProblem
+h	search.py	/^    def h(self, node):$/;"	m	class:PlanRoute
+h	search.py	/^    def h(self, state):$/;"	m	class:OnlineSearchProblem
+hamming_distance	learning.py	/^def hamming_distance(X, Y):$/;"	f
+handle_add_obstacle	ipyviews.py	/^    def handle_add_obstacle(self, vertices):$/;"	m	class:ContinuousWorldView
+handle_click	ipyviews.py	/^    def handle_click(self, coordinates):$/;"	m	class:GridWorldView
+handle_remove_obstacle	ipyviews.py	/^    def handle_remove_obstacle(self):$/;"	m	class:ContinuousWorldView
+hard11	KenKen.py	/^hard11 = '6|60*0,1,7|2?6|10+2,3,8|14+4,5,11,17|5+9,10|8+12,13,18|48*14,15,20|3?16|24*19,25,31|12+21,27,33,34|6?35|1-22,23|1-28,29|2\/24,30|6+26,32'$/;"	v
+harder1	csp.py	/^harder1 = '4173698.5.3..........7......2.....6.....8.4......1.......6.3.7.5..2.....1.4......'$/;"	v
+has_arrow	agents.py	/^    has_arrow = True$/;"	v	class:Explorer
+has_consumable_resource	planning.py	/^    def has_consumable_resource(self, available_resources):$/;"	m	class:HLA
+has_solution	KenKen.py	/^    def has_solution(self,remain_var, curr_val, currdoms):$/;"	m	class:Cage
+has_solution_Div_Sub	KenKen.py	/^    def has_solution_Div_Sub(self,var, curr_val, currdoms):$/;"	m	class:Cage
+has_usable_resource	planning.py	/^    def has_usable_resource(self, available_resources):$/;"	m	class:HLA
+hashabledict	utils.py	/^class hashabledict(dict):$/;"	c
+have_arrow	logic.py	/^def have_arrow(time):$/;"	f
+have_cake_and_eat_cake_too	planning.py	/^def have_cake_and_eat_cake_too():$/;"	f
+have_cake_and_eat_cake_too_graphplan	planning.py	/^def have_cake_and_eat_cake_too_graphplan():$/;"	f
+heatmap	notebook.py	/^def heatmap(grid, cmap='binary', interpolation='nearest'):$/;"	f
+hierarchical_search	planning.py	/^    def hierarchical_search(problem, hierarchy):$/;"	m	class:Problem
+hill_climbing	search.py	/^def hill_climbing(problem):$/;"	f
+histogram	utils.py	/^def histogram(values, mode=0, bin_function=None):$/;"	f
+holding	agents.py	/^    holding = []$/;"	v	class:Explorer
+horn_clauses_KB	logic.py	/^horn_clauses_KB = PropDefiniteKB()$/;"	v
+identity	utils.py	/^identity = lambda x: x$/;"	v
+implies	logic.py	/^def implies(lhs, rhs):$/;"	f
+in_danger	agents.py	/^    def in_danger(self, agent):$/;"	m	class:WumpusEnvironment
+index_collection	text.py	/^    def index_collection(self, filenames):$/;"	m	class:IRSystem
+index_document	text.py	/^    def index_document(self, text, url):$/;"	m	class:IRSystem
+infer_assignment	csp.py	/^    def infer_assignment(self):$/;"	m	class:CSP
+infinity	games.py	/^infinity = float('inf')$/;"	v
+infinity	search.py	/^infinity = float('inf')$/;"	v
+information_content	learning.py	/^def information_content(values):$/;"	f
+information_gain	learning.py	/^    def information_gain(attr, examples):$/;"	f	function:DecisionTreeLearner
+initPages	nlp.py	/^def initPages(addressList):$/;"	f
+init_examples	learning.py	/^def init_examples(examples, idx_i, idx_t, o_units):$/;"	f
+init_population	search.py	/^def init_population(pop_number, gene_pool, state_length):$/;"	f
+init_world	agents.py	/^    def init_world(self, program):$/;"	m	class:WumpusEnvironment
+initial	games.py	/^    initial = 'A'$/;"	v	class:Fig52Game
+initialize	planning.py	/^    def initialize(self):$/;"	m	class:PartialOrderPlanner
+injection	utils.py	/^class injection():$/;"	c
+inorder	planning.py	/^    def inorder(self, job_order):$/;"	m	class:HLA
+inspect_literal	logic.py	/^def inspect_literal(literal):$/;"	f
+integrate_percept	probability.py	/^    def integrate_percept(self, percept):$/;"	m	class:InformationGatheringAgent
+intersects_goal	planning.py	/^    def intersects_goal(problem, reachable_set):$/;"	m	class:Problem
+inverse_matrix	utils.py	/^def inverse_matrix(X):$/;"	f
+iris	learning.py	/^iris = DataSet(name="iris", target="class",$/;"	v
+is_a_threat	planning.py	/^    def is_a_threat(self, precondition, effect):$/;"	m	class:PartialOrderPlanner
+is_alive	agents.py	/^    def is_alive(self):$/;"	m	class:Thing
+is_consistent	knowledge.py	/^def is_consistent(e, h):$/;"	f
+is_definite_clause	logic.py	/^def is_definite_clause(s):$/;"	f
+is_done	agents.py	/^    def is_done(self):$/;"	m	class:Environment
+is_done	agents.py	/^    def is_done(self):$/;"	m	class:WumpusEnvironment
+is_hidden	probability.py	/^def is_hidden(var, X, e):$/;"	f
+is_in	utils.py	/^def is_in(elt, seq):$/;"	f
+is_inbounds	agents.py	/^    def is_inbounds(self, location):$/;"	m	class:XYEnvironment
+is_legal_move	games.py	/^    def is_legal_move(self, board, start, steps, player):$/;"	m	class:Backgammon
+is_point_open	games.py	/^    def is_point_open(self, player, point):$/;"	m	class:Backgammon
+is_primitive	planning.py	/^    def is_primitive(plan,  library):$/;"	m	class:Problem
+is_prop_symbol	logic.py	/^def is_prop_symbol(s):$/;"	f
+is_symbol	logic.py	/^def is_symbol(s):$/;"	f
+is_var_symbol	logic.py	/^def is_var_symbol(s):$/;"	f
+is_variable	logic.py	/^def is_variable(x):$/;"	f
+isa	nlp.py	/^    def isa(self, word, cat):$/;"	m	class:Grammar
+isa	nlp.py	/^    def isa(self, word, cat):$/;"	m	class:ProbGrammar
+isclose	utils.py	/^    def isclose(a, b, rel_tol=1e-09, abs_tol=0.0):$/;"	f	function:gaussian
+isnumber	utils.py	/^def isnumber(x):$/;"	f
+issequence	utils.py	/^def issequence(x):$/;"	f
+iterative_deepening_search	search.py	/^def iterative_deepening_search(problem):$/;"	f
+job_shop_problem	planning.py	/^def job_shop_problem():$/;"	f
+k_in_row	games.py	/^    def k_in_row(self, board, move, player, delta_x_y):$/;"	m	class:TicTacToe
+killed_by	agents.py	/^    killed_by = ""$/;"	v	class:Explorer
+lcv	csp.py	/^def lcv(var, assignment, csp):$/;"	f
+leaky_relu	utils.py	/^def leaky_relu(x, alpha = 0.01):$/;"	f
+leaky_relu_derivative	utils.py	/^def leaky_relu_derivative(value, alpha=0.01):$/;"	f
+learningcurve	learning.py	/^def learningcurve(learner, dataset, trials=10, sizes=None):$/;"	f
+leave_one_out	learning.py	/^def leave_one_out(learner, dataset, size=None):$/;"	f
+likelihood_weighting	probability.py	/^def likelihood_weighting(X, e, bn, N=10000):$/;"	f
+line	notebook.py	/^    def line(self, x1, y1, x2, y2):$/;"	m	class:Canvas
+line_n	notebook.py	/^    def line_n(self, x1n, y1n, x2n, y2n):$/;"	m	class:Canvas
+linearize	planning.py	/^def linearize(solution):$/;"	f
+list_things_at	agents.py	/^    def list_things_at(self, location, tclass=Thing):$/;"	m	class:Environment
+loadPageHTML	nlp.py	/^def loadPageHTML(addressList):$/;"	f
+load_MNIST	notebook.py	/^def load_MNIST(path="aima-data\/MNIST\/Digits", fashion=False):$/;"	f
+location	logic.py	/^def location(x, y, time = None):$/;"	f
+lookup	search.py	/^    def lookup(self, prefix, lo=0, hi=None):$/;"	m	class:Wordlist
+mac	csp.py	/^def mac(csp, var, value, assignment, removals):$/;"	f
+make_action_query	logic.py	/^    def make_action_query(t):$/;"	f	function:KB_AgentProgram
+make_action_sentence	logic.py	/^    def make_action_sentence(action, t):$/;"	f	function:KB_AgentProgram
+make_action_sentence	logic.py	/^    def make_action_sentence(self, action, time):$/;"	m	class:WumpusKB
+make_arc_consistent	csp.py	/^def make_arc_consistent(Xj, Xk, csp):$/;"	f
+make_factor	probability.py	/^def make_factor(var, e, bn):$/;"	f
+make_percept_sentence	logic.py	/^    def make_percept_sentence(percept, t):$/;"	f	function:KB_AgentProgram
+make_percept_sentence	logic.py	/^    def make_percept_sentence(self, percept, time):$/;"	m	class:WumpusKB
+make_plot_grid_step_function	notebook.py	/^def make_plot_grid_step_function(columns, rows, U_over_time):$/;"	f
+make_table	notebook.py	/^    def make_table(self, graph):$/;"	m	class:Canvas_fol_bc_ask
+make_undirected	search.py	/^    def make_undirected(self):$/;"	m	class:Graph
+make_visualize	notebook.py	/^def make_visualize(slider):$/;"	f
+maketrans	text.py	/^def maketrans(from_, to_):$/;"	f
+making_progress	planning.py	/^    def making_progress(plan, initialPlan):$/;"	m	class:Problem
+manhattan_distance	learning.py	/^def manhattan_distance(X, Y):$/;"	f
+map_to_render	ipyviews.py	/^    def map_to_render(self):$/;"	m	class:GridWorldView
+markov_blanket_sample	probability.py	/^def markov_blanket_sample(X, e, bn):$/;"	f
+matmul	mdp.py	/^    def matmul(A, B):$/;"	m	class:Matrix
+matrix_multiplication	utils.py	/^def matrix_multiplication(X_M, *Y_M):$/;"	f
+max_difference	mdp.py	/^    def max_difference(self, U1, U2):$/;"	m	class:POMDP
+max_value	games.py	/^    def max_value(state):$/;"	f	function:expectiminimax
+max_value	games.py	/^    def max_value(state):$/;"	f	function:minimax_decision
+max_value	games.py	/^    def max_value(state, alpha, beta):$/;"	f	function:alphabeta_search
+max_value	games.py	/^    def max_value(state, alpha, beta, depth):$/;"	f	function:alphabeta_cutoff_search
+max_value	notebook.py	/^        def max_value(node):$/;"	f	function:Canvas_minimax.minimax
+max_value	notebook.py	/^        def max_value(node, alpha, beta):$/;"	f	function:Canvas_alphabeta.alphabeta_search
+mean_boolean_error	learning.py	/^def mean_boolean_error(X, Y):$/;"	f
+mean_error	learning.py	/^def mean_error(X, Y):$/;"	f
+memoize	utils.py	/^def memoize(fn, slot=None, maxsize=32):$/;"	f
+memoized_fn	utils.py	/^        def memoized_fn(*args):$/;"	f	function:memoize
+memoized_fn	utils.py	/^        def memoized_fn(obj, *args):$/;"	f	function:memoize
+min_conflicts	csp.py	/^def min_conflicts(csp, max_steps=100000):$/;"	f
+min_conflicts_value	csp.py	/^def min_conflicts_value(csp, var, current):$/;"	f
+min_value	games.py	/^    def min_value(state):$/;"	f	function:expectiminimax
+min_value	games.py	/^    def min_value(state):$/;"	f	function:minimax_decision
+min_value	games.py	/^    def min_value(state, alpha, beta):$/;"	f	function:alphabeta_search
+min_value	games.py	/^    def min_value(state, alpha, beta, depth):$/;"	f	function:alphabeta_cutoff_search
+min_value	notebook.py	/^        def min_value(node):$/;"	f	function:Canvas_minimax.minimax
+min_value	notebook.py	/^        def min_value(node, alpha, beta):$/;"	f	function:Canvas_alphabeta.alphabeta_search
+minimal_consistent_det	knowledge.py	/^def minimal_consistent_det(E, A):$/;"	f
+minimax	notebook.py	/^    def minimax(self, node):$/;"	m	class:Canvas_minimax
+minimax_decision	games.py	/^def minimax_decision(state, game):$/;"	f
+mode	utils.py	/^def mode(data):$/;"	f
+monte_carlo_localization	probability.py	/^def monte_carlo_localization(a, z, N, P_motion_sample, P_sensor, m, S=None):$/;"	f
+mouse_click	notebook.py	/^    def mouse_click(self, x, y):$/;"	m	class:Canvas
+mouse_click	notebook.py	/^    def mouse_click(self, x, y):$/;"	m	class:Canvas_TicTacToe
+mouse_click	notebook.py	/^    def mouse_click(self, x, y):$/;"	m	class:Canvas_alphabeta
+mouse_click	notebook.py	/^    def mouse_click(self, x, y):$/;"	m	class:Canvas_fol_bc_ask
+mouse_click	notebook.py	/^    def mouse_click(self, x, y):$/;"	m	class:Canvas_minimax
+mouse_move	notebook.py	/^    def mouse_move(self, x, y):$/;"	m	class:Canvas
+move_checker	games.py	/^    def move_checker(self, board, start, steps, player):$/;"	m	class:Backgammon
+move_forward	agents.py	/^    def move_forward(self, from_location):$/;"	m	class:Direction
+move_forward	logic.py	/^def move_forward(time):$/;"	f
+move_not_inwards	logic.py	/^def move_not_inwards(s):$/;"	f
+move_to	agents.py	/^    def move_to(self, thing, destination):$/;"	m	class:XYEnvironment
+mrv	csp.py	/^def mrv(assignment, csp):$/;"	f
+ms_error	learning.py	/^def ms_error(X, Y):$/;"	f
+multiply	mdp.py	/^    def multiply(A, B):$/;"	m	class:Matrix
+mutate	search.py	/^def mutate(x, gene_pool, pmut):$/;"	f
+mutate_boggle	search.py	/^def mutate_boggle(board):$/;"	f
+name	utils.py	/^def name(obj):$/;"	f
+nconflicts	csp.py	/^    def nconflicts(self, var, val, assignment):$/;"	m	class:CSP
+nconflicts	csp.py	/^    def nconflicts(self, var, val, assignment):$/;"	m	class:NQueensCSP
+neighbors	csp.py	/^    neighbors = _NEIGHBORS$/;"	v	class:Sudoku
+network	learning.py	/^def network(input_units, hidden_layer_sizes, output_units, activation=sigmoid):$/;"	f
+new_clause	knowledge.py	/^    def new_clause(self, examples, target):$/;"	m	class:FOIL_container
+new_disjunction	logic.py	/^def new_disjunction(sentences):$/;"	f
+new_literals	knowledge.py	/^    def new_literals(self, clause):$/;"	m	class:FOIL_container
+new_program	agents.py	/^    def new_program(percept):$/;"	f	function:TraceAgent
+no_inference	csp.py	/^def no_inference(csp, var, value, assignment, removals):$/;"	f
+nodes	search.py	/^    def nodes(self):$/;"	m	class:Graph
+non_mutex_goals	planning.py	/^    def non_mutex_goals(self, goals, index):$/;"	m	class:Graph
+norm	utils.py	/^def norm(X, n=2):$/;"	f
+normalize	nlp.py	/^def normalize(pages):$/;"	f
+normalize	probability.py	/^    def normalize(self):$/;"	m	class:Factor
+normalize	probability.py	/^    def normalize(self):$/;"	m	class:ProbDist
+normalize	utils.py	/^def normalize(dist):$/;"	f
+normalize_vec	learning.py	/^    def normalize_vec(X, n=2):$/;"	f	function:truncated_svd
+num_legal_values	csp.py	/^def num_legal_values(csp, var, assignment):$/;"	f
+num_or_str	utils.py	/^def num_or_str(x):$/;"	f
+object_name	ipyviews.py	/^    def object_name(self):$/;"	m	class:ContinuousWorldView
+object_name	ipyviews.py	/^    def object_name(self):$/;"	m	class:GridWorldView
+occur_check	logic.py	/^def occur_check(var, x, s):$/;"	f
+ok_to_move	logic.py	/^def ok_to_move(x, y, time):$/;"	f
+one_dim_state_space	search.py	/^one_dim_state_space = Graph(dict($/;"	v
+onlyWikipediaURLS	nlp.py	/^def onlyWikipediaURLS(urls):$/;"	f
+op_dict	KenKen.py	/^op_dict = { $/;"	v
+open_data	utils.py	/^def open_data(name, mode='r'):$/;"	f
+or_search	search.py	/^    def or_search(state, problem, path):$/;"	f	function:and_or_graph_search
+orderlevel	planning.py	/^    def orderlevel(self, level, planningproblem):$/;"	m	class:Linearize
+orings	learning.py	/^orings = DataSet(name='orings', target='Distressed',$/;"	v
+outcome	games.py	/^    def outcome(self, state, chance):$/;"	m	class:Backgammon
+outcome	games.py	/^    def outcome(self, state, chance):$/;"	m	class:StochasticGame
+output	search.py	/^    def output(self, state, action):$/;"	m	class:OnlineSearchProblem
+p	probability.py	/^    def p(self, e):$/;"	m	class:Factor
+p	probability.py	/^    def p(self, value, event):$/;"	m	class:BayesNode
+pagesContent	nlp.py	/^pagesContent = {}  # maps Page relative or absolute URL\/location to page's HTML content$/;"	v
+pagesIndex	nlp.py	/^pagesIndex = {}$/;"	v
+parse	nlp.py	/^    def parse(self, words, S='S'):$/;"	m	class:Chart
+parsePuzzle	KenKen.py	/^    def parsePuzzle(self,splited):$/;"	m	class:KenKen
+parse_csv	learning.py	/^def parse_csv(input, delim=','):$/;"	f
+parse_definite_clause	logic.py	/^def parse_definite_clause(s):$/;"	f
+parse_neighbors	csp.py	/^def parse_neighbors(neighbors, variables=None):$/;"	f
+parses	nlp.py	/^    def parses(self, words, S='S'):$/;"	m	class:Chart
+particle_filtering	probability.py	/^def particle_filtering(e, N, HMM):$/;"	f
+passes	learning.py	/^    def passes(example, test):$/;"	f	function:DecisionListLearner
+path	search.py	/^    def path(self):$/;"	m	class:Node
+path_cost	search.py	/^    def path_cost(self):$/;"	m	class:GraphProblemStochastic
+path_cost	search.py	/^    def path_cost(self, c, state1, action, state2):$/;"	m	class:InstrumentedProblem
+path_cost	search.py	/^    def path_cost(self, c, state1, action, state2):$/;"	m	class:Problem
+path_cost	search.py	/^    def path_cost(self, cost_so_far, A, action, B):$/;"	m	class:GraphProblem
+percept	agents.py	/^    def percept(self, agent):$/;"	m	class:Environment
+percept	agents.py	/^    def percept(self, agent):$/;"	m	class:TrivialVacuumEnvironment
+percept	agents.py	/^    def percept(self, agent):$/;"	m	class:VacuumEnvironment
+percept	agents.py	/^    def percept(self, agent):$/;"	m	class:WumpusEnvironment
+percept	agents.py	/^    def percept(self, agent):$/;"	m	class:XYEnvironment
+percept_breeze	logic.py	/^def percept_breeze(time):$/;"	f
+percept_bump	logic.py	/^def percept_bump(time):$/;"	f
+percept_glitter	logic.py	/^def percept_glitter(time):$/;"	f
+percept_scream	logic.py	/^def percept_scream(time):$/;"	f
+percept_stench	logic.py	/^def percept_stench(time):$/;"	f
+perceptible_distance	agents.py	/^    perceptible_distance = 1$/;"	v	class:XYEnvironment
+percepts_from	agents.py	/^    def percepts_from(self, agent, location, tclass=Thing):$/;"	m	class:WumpusEnvironment
+perform_actions	planning.py	/^    def perform_actions(self):$/;"	m	class:Level
+pit	logic.py	/^def pit(x, y):$/;"	f
+pit_probability	agents.py	/^    pit_probability = 0.2  # Probability to spawn a pit in a location. (From Chapter 7.2)$/;"	v	class:WumpusEnvironment
+pl_fc_entails	logic.py	/^def pl_fc_entails(KB, q):$/;"	f
+pl_resolution	logic.py	/^def pl_resolution(KB, alpha):$/;"	f
+pl_resolve	logic.py	/^def pl_resolve(ci, cj):$/;"	f
+pl_true	logic.py	/^def pl_true(exp, model={}):$/;"	f
+plan_route	logic.py	/^    def plan_route(self, current, goals, allowed):$/;"	m	class:HybridWumpusAgent
+plan_shot	logic.py	/^    def plan_shot(self, current, goals, allowed):$/;"	m	class:HybridWumpusAgent
+play_game	games.py	/^    def play_game(self, *players):$/;"	m	class:Game
+play_game	games.py	/^    def play_game(self, *players):$/;"	m	class:StochasticGame
+plot_NQueens	notebook.py	/^def plot_NQueens(solution):$/;"	f
+plot_grid_step	notebook.py	/^    def plot_grid_step(iteration):$/;"	f	function:make_plot_grid_step_function
+plot_pomdp_utility	notebook.py	/^def plot_pomdp_utility(utility):$/;"	f
+plurality_value	learning.py	/^    def plurality_value(examples):$/;"	f	function:DecisionTreeLearner
+pointwise_product	probability.py	/^    def pointwise_product(self, other, bn):$/;"	m	class:Factor
+pointwise_product	probability.py	/^def pointwise_product(factors, bn):$/;"	f
+policy_evaluation	mdp.py	/^def policy_evaluation(pi, U, mdp, k=20):$/;"	f
+policy_iteration	mdp.py	/^def policy_iteration(mdp):$/;"	f
+pomdp_value_iteration	mdp.py	/^def pomdp_value_iteration(pomdp, epsilon=0.1):$/;"	f
+pop	utils.py	/^    def pop(self):$/;"	m	class:PriorityQueue
+powerset	utils.py	/^def powerset(iterable):$/;"	f
+predicate_symbols	logic.py	/^def predicate_symbols(x):$/;"	f
+predict	learning.py	/^        def predict(example):$/;"	f	function:EnsembleLearner.train
+predict	learning.py	/^    def predict(example):$/;"	f	function:DecisionListLearner
+predict	learning.py	/^    def predict(example):$/;"	f	function:LinearLearner
+predict	learning.py	/^    def predict(example):$/;"	f	function:NaiveBayesContinuous
+predict	learning.py	/^    def predict(example):$/;"	f	function:NaiveBayesDiscrete
+predict	learning.py	/^    def predict(example):$/;"	f	function:NaiveBayesSimple
+predict	learning.py	/^    def predict(example):$/;"	f	function:NearestNeighborLearner
+predict	learning.py	/^    def predict(example):$/;"	f	function:NeuralNetLearner
+predict	learning.py	/^    def predict(example):$/;"	f	function:PerceptronLearner
+predict	learning.py	/^    def predict(example):$/;"	f	function:PluralityLearner
+predict	learning.py	/^    def predict(example):$/;"	f	function:RandomForest
+predict	learning.py	/^    def predict(example):$/;"	f	function:WeightedMajority
+predictor	nlp.py	/^    def predictor(self, edge):$/;"	m	class:Chart
+present	text.py	/^    def present(self, results):$/;"	m	class:IRSystem
+present_results	text.py	/^    def present_results(self, query_text, n=10):$/;"	m	class:IRSystem
+print_boggle	search.py	/^def print_boggle(board):$/;"	f
+print_table	utils.py	/^def print_table(table, header=None, sep='   ', numfmt='{}'):$/;"	f
+prior_sample	probability.py	/^def prior_sample(bn):$/;"	f
+probability	games.py	/^    def probability(self, chance):$/;"	m	class:Backgammon
+probability	games.py	/^    def probability(self, chance):$/;"	m	class:StochasticGame
+probability	utils.py	/^def probability(p):$/;"	f
+product	utils.py	/^def product(numbers):$/;"	f
+program	agents.py	/^            def program(percept):$/;"	f	function:Agent.__init__
+program	agents.py	/^    def program(percept):$/;"	f	function:ModelBasedReflexAgentProgram
+program	agents.py	/^    def program(percept):$/;"	f	function:ModelBasedVacuumAgent
+program	agents.py	/^    def program(percept):$/;"	f	function:ReflexVacuumAgent
+program	agents.py	/^    def program(percept):$/;"	f	function:SimpleReflexAgentProgram
+program	agents.py	/^    def program(percept):$/;"	f	function:TableDrivenAgentProgram
+program	logic.py	/^    def program(percept):$/;"	f	function:KB_AgentProgram
+program	probability.py	/^    def program(percept):$/;"	f	function:DTAgentProgram
+prop_symbols	logic.py	/^def prop_symbols(x):$/;"	f
+protect	planning.py	/^    def protect(self, causal_link, action, constraints):$/;"	m	class:PartialOrderPlanner
+prune	csp.py	/^    def prune(self, var, value, removals):$/;"	m	class:CSP
+pseudocode	notebook.py	/^def pseudocode(algorithm):$/;"	f
+psource	notebook.py	/^def psource(*functions):$/;"	f
+queen_constraint	csp.py	/^def queen_constraint(A, a, B, b):$/;"	f
+query	text.py	/^    def query(self, query_text, n=10):$/;"	m	class:IRSystem
+query_player	games.py	/^def query_player(game, state):$/;"	f
+random_boggle	search.py	/^def random_boggle(n=4):$/;"	f
+random_location_inbounds	agents.py	/^    def random_location_inbounds(self, exclude=None):$/;"	m	class:XYEnvironment
+random_player	games.py	/^def random_player(game, state):$/;"	f
+random_weights	learning.py	/^def random_weights(min_value, max_value, num_weights):$/;"	f
+ray_cast	probability.py	/^    def ray_cast(self, sensor_num, kin_state):$/;"	m	class:MCLmap
+ray_cast	probability.py	/^    def ray_cast(sensor_num, kin_state, m):$/;"	f	function:monte_carlo_localization
+reach_opt	planning.py	/^    def reach_opt(init, plan): $/;"	m	class:Problem
+reach_pes	planning.py	/^    def reach_pes(init, plan): $/;"	m	class:Problem
+recombine	search.py	/^def recombine(x, y):$/;"	f
+recombine_uniform	search.py	/^def recombine_uniform(x, y):$/;"	f
+record_conflict	csp.py	/^    def record_conflict(self, assignment, var, val, delta):$/;"	m	class:NQueensCSP
+rect	notebook.py	/^    def rect(self, x, y, w, h):$/;"	m	class:Canvas
+rect_n	notebook.py	/^    def rect_n(self, xn, yn, wn, hn):$/;"	m	class:Canvas
+recursive_best_first_search	search.py	/^def recursive_best_first_search(problem, h=None):$/;"	f
+recursive_dls	search.py	/^    def recursive_dls(node, problem, limit):$/;"	f	function:depth_limited_search
+refinements	planning.py	/^    def refinements(hla, state, library):  # refinements may be (multiple) HLA themselves ...$/;"	m	class:Problem
+rejection_sampling	probability.py	/^def rejection_sampling(X, e, bn, N=10000):$/;"	f
+relevant_pages	nlp.py	/^def relevant_pages(query):$/;"	f
+relu	utils.py	/^def relu(x):$/;"	f
+relu_derivative	utils.py	/^def relu_derivative(value):$/;"	f
+remove_component	learning.py	/^    def remove_component(X):$/;"	f	function:truncated_svd
+remove_dominated_plans	mdp.py	/^    def remove_dominated_plans(self, input_values):$/;"	m	class:POMDP
+remove_dominated_plans_fast	mdp.py	/^    def remove_dominated_plans_fast(self, input_values):$/;"	m	class:POMDP
+remove_examples	learning.py	/^    def remove_examples(self, value=""):$/;"	m	class:DataSet
+removeall	utils.py	/^def removeall(item, seq):$/;"	f
+replicated_dataset	learning.py	/^def replicated_dataset(dataset, weights, n=None):$/;"	f
+request	probability.py	/^    def request(self, variable):$/;"	m	class:InformationGatheringAgent
+restaurant	learning.py	/^restaurant = RestaurantDataSet()$/;"	v
+restore	csp.py	/^    def restore(self, removals):$/;"	m	class:CSP
+result	csp.py	/^    def result(self, state, action):$/;"	m	class:CSP
+result	games.py	/^    def result(self, state, move):$/;"	m	class:Backgammon
+result	games.py	/^    def result(self, state, move):$/;"	m	class:Fig52Extended
+result	games.py	/^    def result(self, state, move):$/;"	m	class:Fig52Game
+result	games.py	/^    def result(self, state, move):$/;"	m	class:Game
+result	games.py	/^    def result(self, state, move):$/;"	m	class:TicTacToe
+result	planning.py	/^    def result(state, actions):$/;"	m	class:Problem
+result	search.py	/^    def result(self, state, action):$/;"	m	class:EightPuzzle
+result	search.py	/^    def result(self, state, action):$/;"	m	class:GraphProblem
+result	search.py	/^    def result(self, state, action):$/;"	m	class:GraphProblemStochastic
+result	search.py	/^    def result(self, state, action):$/;"	m	class:InstrumentedProblem
+result	search.py	/^    def result(self, state, action):$/;"	m	class:PeakFindingProblem
+result	search.py	/^    def result(self, state, action):$/;"	m	class:PlanRoute
+result	search.py	/^    def result(self, state, action):$/;"	m	class:Problem
+result	search.py	/^    def result(self, state, row):$/;"	m	class:NQueensProblem
+result	text.py	/^    def result(self, state, action):$/;"	m	class:PermutationDecoderProblem
+retract	logic.py	/^    def retract(self, sentence):$/;"	m	class:FolKB
+retract	logic.py	/^    def retract(self, sentence):$/;"	m	class:KB
+retract	logic.py	/^    def retract(self, sentence):$/;"	m	class:PropDefiniteKB
+retract	logic.py	/^    def retract(self, sentence):$/;"	m	class:PropKB
+reveal	agents.py	/^    def reveal(self):$/;"	m	class:GraphicEnvironment
+revise	csp.py	/^def revise(csp, Xi, Xj, removals):$/;"	f
+rewrite	nlp.py	/^        def rewrite(tokens, into):$/;"	f	function:Grammar.generate_random
+rewrite	nlp.py	/^        def rewrite(tokens, into):$/;"	f	function:ProbGrammar.generate_random
+rewrites_for	nlp.py	/^    def rewrites_for(self, cat):$/;"	m	class:Grammar
+rewrites_for	nlp.py	/^    def rewrites_for(self, cat):$/;"	m	class:ProbGrammar
+rms_error	learning.py	/^def rms_error(X, Y):$/;"	f
+romania_map	search.py	/^romania_map = UndirectedGraph(dict($/;"	v
+rot13	text.py	/^def rot13(plaintext):$/;"	f
+rounder	utils.py	/^def rounder(numbers, d=4):$/;"	f
+rows	csp.py	/^    rows = _ROWS$/;"	v	class:Sudoku
+rule_match	agents.py	/^def rule_match(state, rules):$/;"	f
+run	agents.py	/^    def run(self, steps=1000):$/;"	m	class:Environment
+run	agents.py	/^    def run(self, steps=1000, delay=1):$/;"	m	class:GraphicEnvironment
+run_single_trial	rl.py	/^def run_single_trial(agent_program, mdp):$/;"	f
+sample	learning.py	/^    def sample(self):$/;"	m	class:CountingProbDist
+sample	probability.py	/^    def sample(self):$/;"	m	class:MCLmap
+sample	probability.py	/^    def sample(self, event):$/;"	m	class:BayesNode
+samples	text.py	/^    def samples(self, n):$/;"	m	class:UnigramWordModel
+samples	text.py	/^    def samples(self, nwords):$/;"	m	class:NgramWordModel
+sanitize	learning.py	/^    def sanitize(self, example):$/;"	m	class:DataSet
+sat_count	logic.py	/^            def sat_count(sym):$/;"	f	function:WalkSAT
+scalar_matrix_product	utils.py	/^def scalar_matrix_product(X, Y):$/;"	f
+scalar_multiply	mdp.py	/^    def scalar_multiply(a, B):$/;"	m	class:Matrix
+scalar_vector_product	utils.py	/^def scalar_vector_product(X, Y):$/;"	f
+scanner	nlp.py	/^    def scanner(self, j, word):$/;"	m	class:Chart
+score	agents.py	/^    def score(env):$/;"	f	function:test_agent
+score	learning.py	/^    def score(learner, size):$/;"	f	function:learningcurve
+score	search.py	/^    def score(self):$/;"	m	class:BoggleFinder
+score	text.py	/^    def score(self, code):$/;"	m	class:PermutationDecoder
+score	text.py	/^    def score(self, plaintext):$/;"	m	class:ShiftDecoder
+score	text.py	/^    def score(self, word, docid):$/;"	m	class:IRSystem
+scores	search.py	/^    scores = [0, 0, 0, 0, 1, 2, 3, 5] + [11] * 100$/;"	v	class:BoggleFinder
+screamed	agents.py	/^    screamed = False$/;"	v	class:Wumpus
+search	search.py	/^    def search(self, problem):$/;"	m	class:SimpleProblemSolvingAgentProgram
+select	search.py	/^def select(r, population, fitness_fn):$/;"	f
+sensor_dist	probability.py	/^    def sensor_dist(self, ev):$/;"	m	class:HiddenMarkovModel
+separate	planning.py	/^    def separate(self, e):$/;"	m	class:Level
+sequence	utils.py	/^def sequence(iterable):$/;"	f
+sequential_decision_environment	mdp.py	/^sequential_decision_environment = GridMDP([[-0.04, -0.04, -0.04, +1],$/;"	v
+set_board	search.py	/^    def set_board(self, board=None):$/;"	m	class:BoggleFinder
+set_label	ipyviews.py	/^    def set_label(self, coordinates, label):$/;"	m	class:GridWorldView
+set_location	logic.py	/^    def set_location(self, x, y):$/;"	m	class:WumpusPosition
+set_orientation	logic.py	/^    def set_orientation(self, orientation):$/;"	m	class:WumpusPosition
+set_representation	ipyviews.py	/^    def set_representation(self, thing, repr_type, source):$/;"	m	class:GridWorldView
+setproblem	learning.py	/^    def setproblem(self, target, inputs=None, exclude=()):$/;"	m	class:DataSet
+shift_encode	text.py	/^def shift_encode(plaintext, n):$/;"	f
+shoot	logic.py	/^def shoot(time):$/;"	f
+shopping_graphplan	planning.py	/^def shopping_graphplan():$/;"	f
+shopping_problem	planning.py	/^def shopping_problem():$/;"	f
+show	ipyviews.py	/^    def show(self):$/;"	m	class:ContinuousWorldView
+show	ipyviews.py	/^    def show(self):$/;"	m	class:GridWorldView
+show_MNIST	notebook.py	/^def show_MNIST(labels, images, samples=8, fashion=False):$/;"	f
+show_approx	probability.py	/^    def show_approx(self, numfmt='{:.3g}'):$/;"	m	class:ProbDist
+show_ave_MNIST	notebook.py	/^def show_ave_MNIST(labels, images, fashion=False):$/;"	f
+show_box	csp.py	/^        def show_box(box): return [' '.join(map(show_cell, row)) for row in box]$/;"	f	function:Sudoku.display
+show_cell	csp.py	/^        def show_cell(cell): return str(assignment.get(cell, '.'))$/;"	f	function:Sudoku.display
+show_iris	notebook.py	/^def show_iris(i=0, j=1, k=2):$/;"	f
+show_map	notebook.py	/^def show_map(graph_data, node_colors = None):$/;"	f
+show_state	agents.py	/^    def show_state(self):$/;"	m	class:Thing
+shuffled	utils.py	/^def shuffled(iterable):$/;"	f
+sigmoid	utils.py	/^def sigmoid(x):$/;"	f
+sigmoid_derivative	utils.py	/^def sigmoid_derivative(value):$/;"	f
+simp	logic.py	/^def simp(x):$/;"	f
+simple_blocks_world	planning.py	/^def simple_blocks_world():$/;"	f
+simple_blocks_world_graphplan	planning.py	/^def simple_blocks_world_graphplan():$/;"	f
+simulated_annealing	search.py	/^def simulated_annealing(problem, schedule=exp_schedule()):$/;"	f
+simulated_annealing_full	search.py	/^def simulated_annealing_full(problem, schedule=exp_schedule()):$/;"	f
+slider_callback	notebook.py	/^        def slider_callback(iteration):$/;"	f	function:display_visual
+smooth_for	learning.py	/^    def smooth_for(self, o):$/;"	m	class:CountingProbDist
+socks_and_shoes	planning.py	/^def socks_and_shoes():$/;"	f
+socks_and_shoes_graphplan	planning.py	/^def socks_and_shoes_graphplan():$/;"	f
+solution	search.py	/^    def solution(self):$/;"	m	class:Node
+solve_zebra	csp.py	/^def solve_zebra(algorithm=min_conflicts, **args):$/;"	f
+some_things_at	agents.py	/^    def some_things_at(self, location, tclass=Thing):$/;"	m	class:Environment
+spare_tire	planning.py	/^def spare_tire():$/;"	f
+spare_tire_graphplan	planning.py	/^def spare_tire_graphplan():$/;"	f
+specializations	knowledge.py	/^def specializations(examples_so_far, h):$/;"	f
+split_by	learning.py	/^    def split_by(attr, examples):$/;"	f	function:DecisionTreeLearner
+split_values_by_classes	learning.py	/^    def split_values_by_classes(self):$/;"	m	class:DataSet
+sprinkler	probability.py	/^sprinkler = BayesNet([$/;"	v
+stack_manager_gen	notebook.py	/^    def stack_manager_gen(self):$/;"	m	class:Canvas_alphabeta
+stack_manager_gen	notebook.py	/^    def stack_manager_gen(self):$/;"	m	class:Canvas_minimax
+standardize_variables	logic.py	/^def standardize_variables(sentence, dic=None):$/;"	f
+stench	logic.py	/^def stench(x, y):$/;"	f
+step	agents.py	/^    def step(self):$/;"	m	class:Environment
+step	utils.py	/^def step(x):$/;"	f
+stripRawHTML	nlp.py	/^def stripRawHTML(raw_html):$/;"	f
+stroke	notebook.py	/^    def stroke(self, r, g, b):$/;"	m	class:Canvas
+strokeWidth	notebook.py	/^    def strokeWidth(self, w):$/;"	m	class:Canvas
+subexpressions	utils.py	/^def subexpressions(x):$/;"	f
+subst	logic.py	/^def subst(s, x):$/;"	f
+substitute	planning.py	/^    def substitute(self, e, args):$/;"	m	class:Action
+succs	games.py	/^    succs = dict(A=dict(a1='B', a2='C', a3='D'),$/;"	v	class:Fig52Game
+succs	games.py	/^    succs = {i:dict(l=i*3+1, m=i*3+2, r=i*3+3) for i in range(13)}$/;"	v	class:Fig52Extended
+sum_out	probability.py	/^    def sum_out(self, var, bn):$/;"	m	class:Factor
+sum_out	probability.py	/^def sum_out(var, factors, bn):$/;"	f
+support_pruning	csp.py	/^    def support_pruning(self):$/;"	m	class:CSP
+suppose	csp.py	/^    def suppose(self, var, value):$/;"	m	class:CSP
+symbols	utils.py	/^def symbols(names):$/;"	f
+take_single_action	rl.py	/^    def take_single_action(mdp, s, a):$/;"	f	function:run_single_trial
+tanh	utils.py	/^def tanh(x):$/;"	f
+tanh_derivative	utils.py	/^def tanh_derivative(value):$/;"	f
+tell	knowledge.py	/^    def tell(self, sentence):$/;"	m	class:FOIL_container
+tell	logic.py	/^    def tell(self, sentence):$/;"	m	class:FolKB
+tell	logic.py	/^    def tell(self, sentence):$/;"	m	class:KB
+tell	logic.py	/^    def tell(self, sentence):$/;"	m	class:PropDefiniteKB
+tell	logic.py	/^    def tell(self, sentence):$/;"	m	class:PropKB
+terminal_test	games.py	/^    def terminal_test(self, state):$/;"	m	class:Backgammon
+terminal_test	games.py	/^    def terminal_test(self, state):$/;"	m	class:Fig52Extended
+terminal_test	games.py	/^    def terminal_test(self, state):$/;"	m	class:Fig52Game
+terminal_test	games.py	/^    def terminal_test(self, state):$/;"	m	class:Game
+terminal_test	games.py	/^    def terminal_test(self, state):$/;"	m	class:TicTacToe
+test_agent	agents.py	/^def test_agent(AgentFactory, steps, envs):$/;"	f
+test_kb	logic.py	/^test_kb = FolKB($/;"	v
+text	notebook.py	/^    def text(self, txt, x, y, fill=True):$/;"	m	class:Canvas
+text_n	notebook.py	/^    def text_n(self, txt, xn, yn, fill=True):$/;"	m	class:Canvas
+thing_classes	agents.py	/^    def thing_classes(self):$/;"	m	class:Environment
+thing_classes	agents.py	/^    def thing_classes(self):$/;"	m	class:TrivialVacuumEnvironment
+thing_classes	agents.py	/^    def thing_classes(self):$/;"	m	class:VacuumEnvironment
+things_near	agents.py	/^    def things_near(self, location, radius=None):$/;"	m	class:XYEnvironment
+three_block_tower	planning.py	/^def three_block_tower():$/;"	f
+three_block_tower_graphplan	planning.py	/^def three_block_tower_graphplan():$/;"	f
+to_arrows	mdp.py	/^    def to_arrows(self, policy):$/;"	m	class:GridMDP
+to_cnf	logic.py	/^def to_cnf(s):$/;"	f
+to_grid	mdp.py	/^    def to_grid(self, mapping):$/;"	m	class:GridMDP
+to_move	games.py	/^    def to_move(self, state):$/;"	m	class:Fig52Extended
+to_move	games.py	/^    def to_move(self, state):$/;"	m	class:Fig52Game
+to_move	games.py	/^    def to_move(self, state):$/;"	m	class:Game
+top	learning.py	/^    def top(self, n):$/;"	m	class:CountingProbDist
+topological_sort	csp.py	/^def topological_sort(X, root):$/;"	f
+toposort	planning.py	/^    def toposort(self, graph):$/;"	m	class:PartialOrderPlanner
+total_score	text.py	/^    def total_score(self, words, docid):$/;"	m	class:IRSystem
+train	learning.py	/^    def train(dataset):$/;"	f	function:AdaBoost
+train	learning.py	/^    def train(dataset):$/;"	f	function:EnsembleLearner
+train	learning.py	/^    def train(dataset, weights):$/;"	f	function:WeightedLearner
+train_test_split	learning.py	/^def train_test_split(dataset, start, end):$/;"	f
+translate	text.py	/^def translate(plaintext, function):$/;"	f
+translate_to_SAT	logic.py	/^    def translate_to_SAT(init, transition, goal, time):$/;"	f	function:SAT_plan
+transpose	mdp.py	/^    def transpose(A):$/;"	m	class:Matrix
+tree_csp_solver	csp.py	/^def tree_csp_solver(csp):$/;"	f
+truncated_svd	learning.py	/^def truncated_svd(X, num_val=2, max_iter=1000):$/;"	f
+tt_check_all	logic.py	/^def tt_check_all(kb, alpha, symbols, model):$/;"	f
+tt_entails	logic.py	/^def tt_entails(kb, alpha):$/;"	f
+tt_true	logic.py	/^def tt_true(s):$/;"	f
+turn_heading	agents.py	/^    def turn_heading(self, heading, inc):$/;"	m	class:XYEnvironment
+turn_heading	utils.py	/^def turn_heading(heading, inc, headings=orientations):$/;"	f
+turn_left	logic.py	/^def turn_left(time):$/;"	f
+turn_left	utils.py	/^def turn_left(heading):$/;"	f
+turn_right	logic.py	/^def turn_right(time):$/;"	f
+turn_right	utils.py	/^def turn_right(heading):$/;"	f
+unassign	csp.py	/^    def unassign(self, var, assignment):$/;"	m	class:CSP
+unassign	csp.py	/^    def unassign(self, var, assignment):$/;"	m	class:NQueensCSP
+uniform_cost_search	search.py	/^def uniform_cost_search(problem):$/;"	f
+unify	logic.py	/^def unify(x, y, s={}):$/;"	f
+unify_var	logic.py	/^def unify_var(var, x, s):$/;"	f
+unique	utils.py	/^def unique(seq):  # TODO: replace with set$/;"	f
+unique_group	planning.py	/^    unique_group = 1$/;"	v	class:HLA
+unit_clause_assign	logic.py	/^def unit_clause_assign(clause, model):$/;"	f
+unordered_domain_values	csp.py	/^def unordered_domain_values(var, assignment, csp):$/;"	f
+update	agents.py	/^    def update(self, delay=1):$/;"	m	class:GraphicEnvironment
+update	notebook.py	/^    def update(self):$/;"	m	class:Canvas
+update_examples	knowledge.py	/^    def update_examples(self, target, examples, extended_examples):$/;"	m	class:FOIL_container
+update_state	rl.py	/^    def update_state(self, percept):$/;"	m	class:PassiveADPAgent
+update_state	rl.py	/^    def update_state(self, percept):$/;"	m	class:PassiveDUEAgent
+update_state	rl.py	/^    def update_state(self, percept):$/;"	m	class:PassiveTDAgent
+update_state	rl.py	/^    def update_state(self, percept):$/;"	m	class:QLearningAgent
+update_state	search.py	/^    def update_state(self, percept):$/;"	m	class:OnlineDFSAgent
+update_state	search.py	/^    def update_state(self, percept):$/;"	m	class:OnlineSearchProblem
+update_state	search.py	/^    def update_state(self, state, percept):$/;"	m	class:SimpleProblemSolvingAgentProgram
+update_values	learning.py	/^    def update_values(self):$/;"	m	class:DataSet
+usa	csp.py	/^usa = MapColoringCSP(list('RGBY'),$/;"	v
+utility	games.py	/^    def utility(self, state, player):$/;"	m	class:Backgammon
+utility	games.py	/^    def utility(self, state, player):$/;"	m	class:Fig52Extended
+utility	games.py	/^    def utility(self, state, player):$/;"	m	class:Fig52Game
+utility	games.py	/^    def utility(self, state, player):$/;"	m	class:Game
+utility	games.py	/^    def utility(self, state, player):$/;"	m	class:TicTacToe
+utils	games.py	/^    utils = dict()$/;"	v	class:Fig52Extended
+utils	games.py	/^    utils = dict(B1=3, B2=12, B3=8, C1=2, C2=4, C3=6, D1=14, D2=5, D3=2)$/;"	v	class:Fig52Game
+vacuum_world	search.py	/^vacuum_world = Graph(dict($/;"	v
+value	search.py	/^    def value(self, state):$/;"	m	class:InstrumentedProblem
+value	search.py	/^    def value(self, state):$/;"	m	class:PeakFindingProblem
+value	search.py	/^    def value(self, state):$/;"	m	class:Problem
+value_iteration	mdp.py	/^def value_iteration(mdp, epsilon=0.001):$/;"	f
+values	probability.py	/^    def values(self, var):$/;"	m	class:JointProbDist
+values_table	knowledge.py	/^def values_table(examples):$/;"	f
+variable_node	probability.py	/^    def variable_node(self, var):$/;"	m	class:BayesNet
+variable_values	probability.py	/^    def variable_values(self, var):$/;"	m	class:BayesNet
+variables	logic.py	/^def variables(s):$/;"	f
+vector_add	utils.py	/^def vector_add(a, b):$/;"	f
+vector_clip	utils.py	/^def vector_clip(vector, lowest, highest):$/;"	f
+vector_to_diagonal	utils.py	/^def vector_to_diagonal(v):$/;"	f
+version_space_learning	knowledge.py	/^def version_space_learning(examples):$/;"	f
+version_space_update	knowledge.py	/^def version_space_update(V, e):$/;"	f
+visit	planning.py	/^        def visit(vertex):$/;"	f	function:PartialOrderPlanner.cyclic
+visualize_callback	notebook.py	/^        def visualize_callback(Visualize):$/;"	f	function:display_visual
+visualize_callback	notebook.py	/^    def visualize_callback(Visualize, time_step):$/;"	f	function:make_visualize
+viterbi_segment	text.py	/^def viterbi_segment(text, P):$/;"	f
+vpi	probability.py	/^    def vpi(self, variable):$/;"	m	class:InformationGatheringAgent
+vpi_cost_ratio	probability.py	/^    def vpi_cost_ratio(self, variables):$/;"	m	class:InformationGatheringAgent
+waiting_decision_tree	learning.py	/^waiting_decision_tree = T('Patrons',$/;"	v
+weighted_choice	utils.py	/^def weighted_choice(choices):$/;"	f
+weighted_mode	learning.py	/^def weighted_mode(values, weights):$/;"	f
+weighted_replicate	learning.py	/^def weighted_replicate(seq, weights, n):$/;"	f
+weighted_sample	probability.py	/^def weighted_sample(bn, e):$/;"	f
+weighted_sample_with_replacement	utils.py	/^def weighted_sample_with_replacement(n, seq, weights):$/;"	f
+weighted_sampler	utils.py	/^def weighted_sampler(seq, weights):$/;"	f
+wordlist	search.py	/^    wordlist = None  # A class variable, holding a wordlist$/;"	v	class:BoggleFinder
+words	search.py	/^    def words(self):$/;"	m	class:BoggleFinder
+words	text.py	/^def words(text, reg=re.compile('[a-z0-9]+')):$/;"	f
+wumpus	logic.py	/^def wumpus (x, y):$/;"	f
+wumpus_alive	logic.py	/^def wumpus_alive(time):$/;"	f
+wumpus_kb	logic.py	/^wumpus_kb = PropKB()$/;"	v
+wumpus_world_inference	logic.py	/^wumpus_world_inference = expr("(B11 <=> (P12 | P21))  &  ~B11")$/;"	v
+zebra_constraint	csp.py	/^    def zebra_constraint(A, a, B, b, recurse=0):$/;"	f	function:Zebra
+zoo	learning.py	/^zoo = DataSet(name='zoo', target='type', exclude=['name'],$/;"	v

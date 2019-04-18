@@ -1,0 +1,70 @@
+
+
+
+
+		Here is some testing of the KenKen puzzle with various inputs and various searching algorithms. In every cell, there is a number that corresponds
+	to the number of times constraints(A, a, B, b) function was called i.e the number of times we checked if two variables satisfy the constraints. 
+	The numbers in parenthesis mean that no answer was found after a fixed amount of time - 3 minutes - . AC3 algorithm doesn't solve the problem but
+	it is just doing some pre-processing and prunes some domain values from variables, so its small timings are justified. MRV algorithm behaves 
+	randomly in some situations so it was tested multiple times and the result shown at the table is the mean value of the results I got.
+		The inputs given have increasing difficulty (easy-->hard-->hard++) and their grid sizes are 4X4 , 6X6 and 9X9 respectively. Specifically,
+	hard++ problem is one of the most difficult problems in https://www.kenkenpuzzle.com/ .
+		I chose to compare the various algorithms with the number of times constraints(A, a, B, b) function is called because all search functions use this 
+	and also their timings depend on this. Constraints function consumes most of the time in these algorithms. If the number is high, then it is a clear sign
+	that a search algorithm struggled to find a solution or even didn't find at all.
+		One weird result is that BT algorithm performs better than BT+MRV at easy and hard problems.To understand why this happens, we should understand first
+	what MRV tries to accomplish. Another name for MRV is 'fail-first'. That means that this algorithm will choose a variable that possibly will lead us in 
+	temporary failure.The goal of this algorith is to prune as much as possible values it can from the search tree.But it doesnt guarantee to find a solution
+	faster. So that's why we end up with this results - they are not weird at the end -.
+		BT+FC performs better than BT+MRV+FC which again at first sounds a bit weird but it isn't as we discussed above.FC algorithm prunes values every time
+	we make an assignment in order to discard future values of other variables.The goal of this algorithm is to help BT to find a solution faster.
+		
+	
+	
+
+
+
+
+					------------------------------------------------------------
+					|         |  BT+MRV |  BT+FC  |BT+FC+MRV|   AC3   |  BT     |
+					|         |         |         |         |         |         |
+					|---------|---------|---------|---------|---------|---------|
+					|  easy   |8424     |757      | 958     | 782     |624      |
+					|---------|---------|---------|---------|---------|---------|
+					|  hard   | (2*10^8)| 22047   |25241    | 5438    |60995    |
+					|---------|---------|---------|---------|---------|---------|
+					|  hard++ |(2*10^8) |(2*10^8) |(2*10^8) |20797    |(2*10^8) |
+					|---------|---------|---------|---------|---------|---------|
+					|         |         |         |         |         |         |
+					|---------|---------------------------------------|---------|
+					|         |   min conflicts (max_steps=1000000)   |         |
+					|---------|---------------------------------------|---------|
+					| easy    |  (10^8)           |         |         |         |
+					|---------|-------------------|---------|---------|---------|
+					| hard    |  (4*10^8)         |         |         |         |
+					|---------|-------------------|---------|---------|---------|
+					| hard++  |  (6*10^8)         |         |         |         |
+					|---------|-------------------|---------|---------|---------|
+					|         |         |         |         |         |         |
+					|---------|---------|---------|---------|---------|---------|
+					|         |         |         |         |         |         |
+					|---------|---------|---------|---------|---------|---------|
+					|         |         |         |         |         |         |
+					|---------|---------|---------|---------|---------|---------|
+					|         |         |         |         |         |         |
+					|---------|---------|---------|---------|---------|---------|
+					|         |         |         |         |         |         |
+					|---------|---------|---------|---------|---------|---------|
+					|         |         |         |         |         |         |
+					|---------|---------|---------|---------|---------|---------|
+					|         |         |         |         |         |         |
+					------------------------------------------------------------|
+
+
+	As we can see,min conflicts search algorithm doesn't perform well at solving KenKen puzzles.In fact, it doesn't even find solution at the easiest problem.
+	This happens for two main reasons.Firstly, the initial assignment that min_conflicts algorithm makes is purely random. That is because initially, all variables
+	domains are {0,1,2...N} where NxN is the grid size. Secondly, min_conflicts is a local search algorithm and doesn't keep track of the search tree.Instead, all 
+	previously mentioned algorithms do. 
+	
+
+

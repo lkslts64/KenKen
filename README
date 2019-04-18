@@ -1,0 +1,26 @@
+#Documentation for KenKen class implemented in KenKen.py 
+
+KenKen puzzle input format :
+
+
+	 To fully define a KenKen puzzle we only need to define its cages and the grid size. To define one cage , we need 
+	 to know the variables that a given cage consists of , the operator of the cage and the result of the operation .(Actually,
+	 these are the attributes of the Cage class).  So,the input format consists of cages which are delimited by the character '|' .
+
+	 Note: the first node is not a cage but the grid size (only the one dimension).
+
+	 Each cage is defined in the following format : [result_of_operation][operator][list_of_variables_seperated_by_comma] .
+
+	 Note: If a cage consists of only one variable , then the operator is character '?' .  
+
+Cage class:
+
+	This class has two methods for checking if a cage has solution given some variables values=curr_val.
+The first function [has_solution()] works for * and + operators and the second one [has_solution_Div_Sub] works for / and - 
+
+KenKen class:
+
+	self.rows,self.cols, self.neighbors and self.domains are lists containing
+	the data discussed above in question 1.In constrast with CSP abstract class,
+	self.curr_domains list  is necessary because KenKen_constraints functions uses it.
+	KenKen_constraints function is similar to the pseudocode in question 1.	

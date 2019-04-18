@@ -1,0 +1,34 @@
+
+
+																	KenKen Model
+																	~~~~~~~~~~~~
+
+	
+
+
+	- Variables : KenKen's number of variables depends on the grid size. So, if the grid size is NxN, then also the variables will be NxN with indexes 
+	0,1,2....N-1 .Each variable has neighbors and they are not fixed like Sudoku puzzles. Instead, they depend on the given KenKen puzzle. The neighbors
+	of one variable V are the ones that belong to the same cage with V and the ones that belong to the same row or column with V.
+
+	- Domains : Theoretically, each variable can take every possible value between 1 and N where N is one dimension of the KenKen puzzle grid.
+	I have also taken this aproach to the problem.  In fact, in my model, even single variable cages where their value is equal to the cage's target,
+	initially have domain values 1 to N.  This is not because I want to keep it simple, but because I want to point out that no processing and solving
+	will be done until someones wants to solve the problem .
+
+	- Constraints: In general KenKen puzzle constraints are that no digit appears more than once in any row or any column and the numbers in the cells 
+	of each cage must produce a certain target number when combined using a specified operation.Given a variable V and grid size N, then we have 2*N binary
+	constraints because of the rows and columns. Additonally, we want for every cage consisting of variables v1,v2,v3...vN and operator op to have the 
+	following property : v1(op)v2(op)v3(op)v4...(op)vN = Target. If we want to make an attempt to express this in terms of a binary constraint 
+	(we can't actually)  we would say that v1 and v2 should have values val1 and val2 that permit the other variables to satisfy the Target, 
+	but this is a lighter constraint . 
+												Pseudocode for Constraints(A, a, B, b)
+												~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+												if A and B belong to the same row or column and b == a then 
+													return False
+												else if A is the only variable in A's cage :
+													 return (check if A's cage has solution(A=a))
+												else if A's_cage == B's_cage :
+													 return (check if cage has solution if A=a and B=b)
+												else return True
+												
